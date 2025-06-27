@@ -1,0 +1,332 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Tarun Telang",
+    "label": "Technology Leader & Chief Technology Officer",
+    "image": "",
+    "email": "tarun.telang@gmail.com",
+    "phone": "+91 6309 485 289",
+    "url": "",
+    "summary": "Dynamic technology leader with 20+ years of experience in building, scaling, and leading multidisciplinary engineering teams across enterprise SaaS, cloud platforms, and digital transformation. Globally renowned expert, author, and innovator in microservices and cloud technologies. Proven expertise in Java/Spring, .NET, cloud (AWS/Azure), and DevOps. Track record of delivering innovative, secure, and scalable enterprise solutions. Adept at aligning technology vision with business goals, fostering engineering excellence, and driving continuous improvement in fast-paced environments.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Hyderabad",
+      "countryCode": "IN",
+      "region": "Telangana"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "taruntelang",
+        "url": "https://linkedin.com/in/taruntelang"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Highspot",
+      "position": "Senior Manager",
+      "url": "https://highspot.com",
+      "startDate": "2024-03-01",
+      "endDate": "2024-12-31",
+      "summary": "Led video platform integrations and AI-driven insights development",
+      "highlights": [
+        "Managed integrations with 4 major video platforms (Google, Zoom, Webex, RingCentral), focusing on meeting ingestion and generating AI-driven insights from transcripts/recordings",
+        "Led team growth by hiring 10+ engineers; enhanced onboarding, ensuring a smooth transition and faster productivity for new hires",
+        "Nominated 5 team members for awards, recognizing contributions to key releases",
+        "Championed innovation by implementing 2 PoCs and contributing multiple new ideas",
+        "Fostered cross-functional collaboration with US teams and external partners (e.g., Cisco) to drive successful product delivery and manage dependencies across engineering, product, and stakeholders"
+      ]
+    },
+    {
+      "name": "Lets Practice Academy",
+      "position": "Chief Technology Officer",
+      "url": "",
+      "startDate": "2021-06-01",
+      "endDate": "2024-03-01",
+      "summary": "Architected and launched online learning platform for 100K+ software professionals",
+      "highlights": [
+        "Architected and launched an online learning platform for 100K+ experienced software professionals, enabling mastery of advanced system-building skills",
+        "Scaled platform architecture and technologies to support exponential user growth (hundreds to tens of millions)",
+        "Promoted a culture of continuous learning and inclusivity; initiated programs to develop soft skills among senior engineers, enabling their transition to technical leadership roles"
+      ]
+    },
+    {
+      "name": "Microsoft",
+      "position": "Senior Software Engineering Lead",
+      "url": "https://microsoft.com",
+      "startDate": "2019-03-01",
+      "endDate": "2021-06-01",
+      "summary": "Led SharePoint Online and Office 365 development initiatives",
+      "highlights": [
+        "Established SharePoint Online as a flagship collaboration tool for Office 365 customers",
+        "Pioneered architecture and new features for SharePoint Mobile Apps—boosting customer engagement and retention by 30%",
+        "Provided technical vision and leadership, driving customer base growth through new features",
+        "Delivered key improvements for OneDrive & SharePoint Admin Portal, improving end-user feature discovery by 20%"
+      ]
+    },
+    {
+      "name": "OYO",
+      "position": "Director of Engineering & Products",
+      "url": "https://oyorooms.com",
+      "startDate": "2018-06-01",
+      "endDate": "2019-02-01",
+      "summary": "Led supply chain technology and hotel transformation initiatives",
+      "highlights": [
+        "Achieved 30%+ reduction in time and cost for standardized room go-live via technology-driven process improvements",
+        "Oversaw roll-out, enhancement, operations, and upgrades for 10+ mobile, web, and microservices-based solutions",
+        "Supervised 30+ engineers building cloud-based solutions on AWS",
+        "Bootstrapped and scaled new business org units in supply chain technology and hotel transformation"
+      ]
+    },
+    {
+      "name": "Oracle",
+      "position": "Senior Engineering Manager",
+      "url": "https://oracle.com",
+      "startDate": "2017-01-01",
+      "endDate": "2018-06-01",
+      "summary": "Delivered Oracle Hospitality Cloud solutions and compliance initiatives",
+      "highlights": [
+        "Delivered Oracle Hospitality Web Booking Engine and Web Proposals Cloud Service solutions",
+        "Managed multiple product releases addressing PII, GDPR, and PCI compliance",
+        "Defined product architecture and collaborated with cross-functional teams globally",
+        "Led agile transformation and rollout of project management best practices"
+      ]
+    },
+    {
+      "name": "Polycom",
+      "position": "Engineering Manager",
+      "url": "https://polycom.com",
+      "startDate": "2013-08-01",
+      "endDate": "2016-12-01",
+      "summary": "Led video conferencing and telepresence solution development",
+      "highlights": [
+        "Led conceptualization, implementation, and operations of Polycom RealPresence Touch, a pioneering video collaboration control solution",
+        "Designed, delivered, and managed Polycom's video conferencing app for Salesforce.com",
+        "Oversaw product standards compliance, open source, accessibility, and security (internal & external)"
+      ]
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "International Institute of Information Technology, IIITB",
+      "url": "https://iiitb.ac.in",
+      "area": "Information Technology",
+      "studyType": "Master of Technology",
+      "startDate": "2003-06-01",
+      "endDate": "2005-05-01",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Center of Development of Advanced Computing (CDAC)",
+      "url": "https://cdac.in",
+      "area": "Advanced Computing (Computer Science)",
+      "studyType": "Post Graduate Diploma",
+      "startDate": "2003-02-01",
+      "endDate": "2003-07-01",
+      "score": "",
+      "courses": []
+    },
+    {
+      "institution": "Bhilai Institute of Technology (BIT)",
+      "url": "",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Engineering",
+      "startDate": "1998-07-01",
+      "endDate": "2002-06-01",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Star Performer Award",
+      "date": "2012-03-01",
+      "awarder": "Polycom India",
+      "summary": "Recognized for outstanding performance in Q1 2012"
+    },
+    {
+      "title": "Polycom Engineering Excellence Award",
+      "date": "2011-09-01",
+      "awarder": "Polycom (Worldwide)",
+      "summary": "Worldwide recognition for engineering excellence in Q3 2011"
+    },
+    {
+      "title": "SAP Value Awards - Best Employee Award",
+      "date": "2006-01-01",
+      "awarder": "SAP",
+      "summary": "Recognized for Simplicity in 2006"
+    },
+    {
+      "title": "SAP Developer Challenge Winner",
+      "date": "2006-01-01",
+      "awarder": "SAP",
+      "summary": "Winner of SAP Developer Challenge 2006 (Palo Alto) & 2005"
+    },
+    {
+      "title": "SAP TechEd Keynote Demo",
+      "date": "2006-01-01",
+      "awarder": "SAP",
+      "summary": "Delivered Keynote Demo with SAP CEO at SAP TechEd 2006 (Las Vegas, Amsterdam & Bengaluru)"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "SAP Certified Development Consultant",
+      "date": "2005-01-01",
+      "issuer": "SAP",
+      "url": ""
+    },
+    {
+      "name": "Oracle Certified Java Programmer",
+      "date": "2006-01-01",
+      "issuer": "Oracle",
+      "url": ""
+    },
+    {
+      "name": "SAP Certified Application Management Expert",
+      "date": "2007-01-01",
+      "issuer": "SAP",
+      "url": ""
+    },
+    {
+      "name": "NASBA Certification for Remote Work",
+      "date": "2020-01-01",
+      "issuer": "NASBA",
+      "url": ""
+    }
+  ],
+  "publications": [
+    {
+      "name": "Practical Microservices Architectural Patterns: Build Highly Scalable Distributed Applications with Spring Boot 3 and Spring Cloud 2024",
+      "publisher": "Apress (New York)",
+      "releaseDate": "2025-06-01",
+      "url": "",
+      "summary": "Comprehensive guide to microservices architectural patterns"
+    },
+    {
+      "name": "Learn Microservices with Spring Boot 3",
+      "publisher": "Apress (New York)",
+      "releaseDate": "2023-09-01",
+      "url": "",
+      "summary": "Practical guide to microservices development with Spring Boot 3"
+    },
+    {
+      "name": "Beginning Cloud-Native Application Development using MicroProfile, Jakarta EE, and Kubernetes/Docker",
+      "publisher": "Apress (New York)",
+      "releaseDate": "2022-12-01",
+      "url": "",
+      "summary": "Cloud-native development guide using modern Java technologies"
+    },
+    {
+      "name": "Java EE to Jakarta EE 10 Recipes: A Problem-Solution Approach for Enterprise Java",
+      "publisher": "Apress (New York)",
+      "releaseDate": "2022-07-01",
+      "url": "",
+      "summary": "Migration guide from Java EE to Jakarta EE"
+    },
+    {
+      "name": "Introducing Jakarta EE Fundamentals: Building Java-based Enterprise Quality Systems",
+      "publisher": "O'Reilly Media",
+      "releaseDate": "2022-03-01",
+      "url": "",
+      "summary": "Fundamentals of Jakarta EE for enterprise development"
+    },
+    {
+      "name": "Introducing Java 17 Fundamentals: Using Java SE Development Kit 17 LTS and OpenJDK 17",
+      "publisher": "O'Reilly Media",
+      "releaseDate": "2022-02-01",
+      "url": "",
+      "summary": "Comprehensive guide to Java 17 features and capabilities"
+    },
+    {
+      "name": "Building High-Performance Applications: Using GraalVM Native Image and OpenJDK 17",
+      "publisher": "O'Reilly Media",
+      "releaseDate": "2021-08-01",
+      "url": "",
+      "summary": "Guide to building high-performance Java applications"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Technical Leadership",
+      "level": "Expert",
+      "keywords": [
+        "Java/Spring",
+        ".NET",
+        "Microservices",
+        "Relational Databases"
+      ]
+    },
+    {
+      "name": "Cloud Platforms",
+      "level": "Expert",
+      "keywords": [
+        "AWS",
+        "Azure"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "Expert",
+      "keywords": [
+        "CI/CD",
+        "Automation",
+        "System Scalability"
+      ]
+    },
+    {
+      "name": "Enterprise Solutions",
+      "level": "Expert",
+      "keywords": [
+        "SaaS",
+        "Cloud-Native",
+        "Compliance (PII, GDPR, PCI)"
+      ]
+    },
+    {
+      "name": "People Management",
+      "level": "Expert",
+      "keywords": [
+        "Team Building",
+        "Mentorship",
+        "Cross-Functional Collaboration"
+      ]
+    },
+    {
+      "name": "Process Excellence",
+      "level": "Expert",
+      "keywords": [
+        "Agile Transformation",
+        "Onboarding",
+        "Continuous Improvement"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [],
+  "references": [
+    {
+      "name": "Available upon request",
+      "reference": ""
+    }
+  ],
+  "projects": [],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2025-06-27T00:00:00.000Z"
+  }
+}

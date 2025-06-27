@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarun Telang - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Computer Modern', 'Latin Modern Roman', 'Times New Roman', 'Times', serif;
+            line-height: 1.3;
+            color: #000;
+            max-width: 210mm;
+            margin: 0 auto;
+            padding: 25mm 20mm;
+            background: white;
+            font-size: 11pt;
+            text-align: justify;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20pt;
+            border-bottom: 1pt solid #000;
+            padding-bottom: 12pt;
+        }
+
+        .header h1 {
+            font-size: 18pt;
+            color: #000;
+            margin-bottom: 6pt;
+            font-weight: bold;
+            letter-spacing: 0.5pt;
+            text-transform: uppercase;
+        }
+
+        .contact-info {
+            font-size: 10pt;
+            line-height: 1.2;
+        }
+
+        .contact-info span {
+            display: inline-block;
+            margin: 0 10pt;
+        }
+
+        .summary {
+            margin-bottom: 15pt;
+            text-align: justify;
+            font-style: italic;
+            padding: 0;
+            background: none;
+            border: none;
+        }
+
+        .summary p {
+            font-size: 11pt;
+            line-height: 1.3;
+            color: #000;
+        }
+
+        .section {
+            margin-bottom: 15pt;
+        }
+
+        .section h2 {
+            font-size: 12pt;
+            font-weight: bold;
+            color: #000;
+            text-transform: uppercase;
+            letter-spacing: 1pt;
+            margin-bottom: 6pt;
+            border-bottom: 0.5pt solid #000;
+            padding-bottom: 2pt;
+        }
+
+        .job {
+            margin-bottom: 12pt;
+            page-break-inside: avoid;
+        }
+
+        .job-header {
+            margin-bottom: 4pt;
+        }
+
+        .job-title {
+            font-size: 11pt;
+            font-weight: bold;
+            color: #000;
+            display: block;
+        }
+
+        .company {
+            color: #000;
+            font-weight: normal;
+            font-style: italic;
+            display: block;
+            margin-bottom: 1pt;
+        }
+
+        .job-details {
+            color: #000;
+            font-size: 10pt;
+            text-align: right;
+            margin-top: -15pt;
+            margin-bottom: 4pt;
+        }
+
+        .job ul {
+            margin-left: 15pt;
+            list-style-type: none;
+        }
+
+        .job li {
+            margin-bottom: 3pt;
+            line-height: 1.3;
+            text-indent: -10pt;
+            padding-left: 10pt;
+        }
+
+        .job li:before {
+            content: "• ";
+            font-weight: bold;
+        }
+
+        .skills-grid {
+            display: block;
+        }
+
+        .skill-category {
+            margin-bottom: 6pt;
+            padding: 0;
+            background: none;
+            border: none;
+        }
+
+        .skill-category strong {
+            color: #000;
+            display: inline;
+            margin-right: 6pt;
+            font-weight: bold;
+        }
+
+        .two-column {
+            display: block;
+        }
+
+        .certification, .award, .publication, .book {
+            margin-bottom: 4pt;
+            padding: 0;
+            border: none;
+            line-height: 1.2;
+        }
+
+        .education-item {
+            margin-bottom: 10pt;
+        }
+
+        .degree {
+            font-weight: bold;
+            color: #000;
+            font-size: 11pt;
+        }
+
+        .institution {
+            color: #000;
+            margin: 2pt 0;
+            font-style: italic;
+        }
+
+        .dates {
+            color: #000;
+            font-size: 10pt;
+        }
+
+        .patents {
+            background: none;
+            padding: 0;
+            border: none;
+            margin-bottom: 12pt;
+        }
+
+        .patents h3 {
+            color: #000;
+            margin-bottom: 6pt;
+            font-size: 12pt;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1pt;
+            border-bottom: 0.5pt solid #000;
+            padding-bottom: 2pt;
+        }
+
+        .patents ul {
+            margin-left: 15pt;
+            list-style-type: none;
+        }
+
+        .patents li {
+            margin-bottom: 3pt;
+            color: #000;
+            text-indent: -10pt;
+            padding-left: 10pt;
+            line-height: 1.3;
+        }
+
+        .patents li:before {
+            content: "• ";
+            font-weight: bold;
+        }
+
+        .book strong {
+            font-weight: bold;
+        }
+
+        @media print {
+            body {
+                padding: 20mm;
+                font-size: 10pt;
+            }
+            
+            .header h1 {
+                font-size: 16pt;
+            }
+            
+            .section {
+                margin-bottom: 18pt;
+            }
+            
+            .page-break {
+                page-break-before: always;
+            }
+        }
+
+        @page {
+            margin: 20mm;
+            size: A4;
+        }
+
+        /* LaTeX-style emphasis */
+        em {
+            font-style: italic;
+        }
+
+        strong {
+            font-weight: bold;
+        }
+
+        /* LaTeX-style spacing */
+        p {
+            margin-bottom: 4pt;
+        }
+
+        /* Prevent orphans and widows */
+        p, li {
+            orphans: 2;
+            widows: 2;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Tarun Telang</h1>
+        <div class="contact-info">
+            <span><strong>Email:</strong> tarun.telang@gmail.com</span>
+            <span><strong>Phone:</strong> +91 6309 485 289</span>
+            <span><strong>LinkedIn:</strong> linkedin.com/in/taruntelang</span>
+        </div>
+    </div>
+
+    <div class="summary">
+        <p>Dynamic technology leader with 20+ years of experience in building, scaling, and leading multidisciplinary engineering teams across enterprise SaaS, cloud platforms, and digital transformation. Globally renowned expert, author, and innovator in microservices and cloud technologies. Proven expertise in Java/Spring, .NET, cloud (AWS/Azure), and DevOps. Track record of delivering innovative, secure, and scalable enterprise solutions. Adept at aligning technology vision with business goals, fostering engineering excellence, and driving continuous improvement in fast-paced environments.</p>
+    </div>
+
+    <div class="section">
+        <h2>Key Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <strong>Technical Leadership:</strong>
+                Java/Spring, .NET, Microservices, Relational Databases
+            </div>
+            <div class="skill-category">
+                <strong>Cloud Platforms:</strong>
+                AWS, Azure
+            </div>
+            <div class="skill-category">
+                <strong>DevOps:</strong>
+                CI/CD, Automation, System Scalability
+            </div>
+            <div class="skill-category">
+                <strong>Enterprise Solutions:</strong>
+                SaaS, Cloud-Native, Compliance (PII, GDPR, PCI)
+            </div>
+            <div class="skill-category">
+                <strong>People Management:</strong>
+                Team Building, Mentorship, Cross-Functional Collaboration
+            </div>
+            <div class="skill-category">
+                <strong>Process Excellence:</strong>
+                Agile Transformation, Onboarding, Continuous Improvement
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Experience</h2>
+        
+        <div class="job">
+            <div class="job-header">
+                <div>
+                    <div class="job-title">Senior Manager</div>
+                    <div class="company">Highspot</div>
+                </div>
+            </div>
+            <div class="job-details">Hyderabad | 03-2024 – 12-2024</div>
+            <ul>
+                <li>Managed integrations with 4 major video platforms (Google, Zoom, Webex, RingCentral), focusing on meeting ingestion and generating AI-driven insights from transcripts/recordings.</li>
+                <li>Led team growth by hiring 10+ engineers; enhanced onboarding, ensuring a smooth transition and faster productivity for new hires.</li>
+                <li>Nominated 5 team members for awards, recognizing contributions to key releases.</li>
+                <li>Championed innovation by implementing 2 PoCs and contributing multiple new ideas.</li>
+                <li>Fostered cross-functional collaboration with US teams and external partners (e.g., Cisco) to drive successful product delivery and manage dependencies across engineering, product, and stakeholders.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <div>
+                    <div class="job-title">Chief Technology Officer</div>
+                    <div class="company">Lets Practice Academy</div>
+                </div>
+            </div>
+            <div class="job-details">Remote | 06-2021 – 03-2024</div>
+            <ul>
+                <li>Architected and launched an online learning platform for 100K+ experienced software professionals, enabling mastery of advanced system-building skills.</li>
+                <li>Scaled platform architecture and technologies to support exponential user growth (hundreds to tens of millions).</li>
+                <li>Promoted a culture of continuous learning and inclusivity; initiated programs to develop soft skills among senior engineers, enabling their transition to technical leadership roles.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <div>
+                    <div class="job-title">Senior Software Engineering Lead</div>
+                    <div class="company">Microsoft (Office 365)</div>
+                </div>
+            </div>
+            <div class="job-details">Hyderabad | 03-2019 – 06-2021</div>
+            <ul>
+                <li>Established SharePoint Online as a flagship collaboration tool for Office 365 customers.</li>
+                <li>Pioneered architecture and new features for SharePoint Mobile Apps—boosting customer engagement and retention by 30%.</li>
+                <li>Provided technical vision and leadership, driving customer base growth through new features.</li>
+                <li>Delivered key improvements for OneDrive & SharePoint Admin Portal, improving end-user feature discovery by 20%.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <div>
+                    <div class="job-title">Director of Engineering & Products</div>
+                    <div class="company">OYO (Supply Chain & Hotel Transformation)</div>
+                </div>
+            </div>
+            <div class="job-details">Hyderabad | 06-2018 – 02-2019</div>
+            <ul>
+                <li>Achieved 30%+ reduction in time and cost for standardized room go-live via technology-driven process improvements.</li>
+                <li>Oversaw roll-out, enhancement, operations, and upgrades for 10+ mobile, web, and microservices-based solutions.</li>
+                <li>Supervised 30+ engineers building cloud-based solutions on AWS.</li>
+                <li>Bootstrapped and scaled new business org units in supply chain technology and hotel transformation.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <div>
+                    <div class="job-title">Senior Engineering Manager</div>
+                    <div class="company">Oracle (Hospitality Cloud)</div>
+                </div>
+            </div>
+            <div class="job-details">Hyderabad | 01-2017 – 06-2018</div>
+            <ul>
+                <li>Delivered Oracle Hospitality Web Booking Engine and Web Proposals Cloud Service solutions.</li>
+                <li>Managed multiple product releases addressing PII, GDPR, and PCI compliance.</li>
+                <li>Defined product architecture and collaborated with cross-functional teams globally.</li>
+                <li>Led agile transformation and rollout of project management best practices.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <div>
+                    <div class="job-title">Engineering Manager</div>
+                    <div class="company">Polycom (Video Conferencing & Telepresence)</div>
+                </div>
+            </div>
+            <div class="job-details">Hyderabad | 08-2013 – 12-2016</div>
+            <ul>
+                <li>Led conceptualization, implementation, and operations of Polycom RealPresence Touch, a pioneering video collaboration control solution.</li>
+                <li>Designed, delivered, and managed Polycom's video conferencing app for Salesforce.com.</li>
+                <li>Oversaw product standards compliance, open source, accessibility, and security (internal & external).</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="patents">
+        <h3>Patents</h3>
+        <ul>
+            <li>Contextual Collaborative Electronic Annotations</li>
+            <li>System and Method for Model-driven Unit Testing Environment</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Awards</h2>
+        <div class="award">Star Performer Award, Polycom India, Q1 2012</div>
+        <div class="award">Polycom Engineering Excellence Award (Worldwide), Q3 2011</div>
+        <div class="award">SAP Value Awards (Best Employee Award) 2006 for Simplicity</div>
+        <div class="award">Winner – SAP Developer Challenge 2006 (Palo Alto) & 2005</div>
+        <div class="award">Delivered Keynote Demo with SAP CEO at SAP TechEd 2006</div>
+    </div>
+
+    <div class="section">
+        <h2>Certifications</h2>
+        <div class="certification"><strong>SAP Certified Development Consultant</strong> – Java Web Application Development, 2005</div>
+        <div class="certification"><strong>Oracle Certified Java Programmer</strong> – Java 6.0, 2006</div>
+        <div class="certification"><strong>SAP Certified Application Management Expert</strong> – End to End Root Cause Analysis, 2007</div>
+        <div class="certification"><strong>NASBA Certification for Remote Work</strong>, 2020</div>
+    </div>
+
+    <div class="section">
+        <h2>Books Authored</h2>
+        <div class="book"><strong>Practical Microservices Architectural Patterns</strong> - Apress (New York), June 2025</div>
+        <div class="book"><strong>Learn Microservices with Spring Boot 3</strong> - Apress (New York), Sep 2023</div>
+        <div class="book"><strong>Beginning Cloud-Native Application Development</strong> - Apress (New York), Dec 2022</div>
+        <div class="book"><strong>Java EE to Jakarta EE 10 Recipes</strong> - Apress (New York), Jul 2022</div>
+        <div class="book"><strong>Introducing Jakarta EE Fundamentals</strong> - O'Reilly Media, Mar 2022</div>
+        <div class="book"><strong>Introducing Java 17 Fundamentals</strong> - O'Reilly Media, Feb 2022</div>
+        <div class="book"><strong>Building High-Performance Applications</strong> - O'Reilly Media, Aug 2021</div>
+    </div>
+
+    <div class="section">
+        <h2>Education</h2>
+        <div class="education-item">
+            <div class="degree">Master of Technology in Information Technology (Full Time)</div>
+            <div class="institution">International Institute of Information Technology, IIITB, Bangalore</div>
+            <div class="dates">2003-06 – 2005-05</div>
+        </div>
+        
+        <div class="education-item">
+            <div class="degree">Post Graduate Diploma in Advanced Computing (PGDAC)</div>
+            <div class="institution">Center of Development of Advanced Computing (CDAC), Hyderabad</div>
+            <div class="dates">2003-02 – 2003-07</div>
+        </div>
+        
+        <div class="education-item">
+            <div class="degree">Bachelor of Engineering in Computer Science</div>
+            <div class="institution">Bhilai Institute of Technology (BIT), Durg, Chhattisgarh</div>
+            <div class="dates">1998-07 – 2002-06</div>
+        </div>
+    </div>
+</body>
+</html>
