@@ -1,0 +1,520 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Tarun Telang",
+    "label": "Director of Software Engineering • Digital Transformation Leader • Platform Architect",
+    "image": "https://media.licdn.com/dms/image/v2/D5603AQHG872SjT2mVw/profile-displayphoto-shrink_800_800/B56ZSR3mxWHoAc-/0/1737614061530?e=1758153600&v=beta&t=jKvtxzwpATIGbFAvxz9HHW2zWv-iAz_1US63KGV4_e8",
+    "email": "tarun.telang@gmail.com",
+    "phone": "+91-6309-485-289",
+    "url": "https://practicaldeveloper.com",
+    "summary": "Visionary engineering leader with 20+ years of experience driving digital transformation and leading high-performing teams. Proven track record of architecting scalable platforms, modernizing legacy systems, and delivering complex multi-year roadmaps. Expert in building enterprise-grade applications with strong focus on security, compliance (GDPR, PCI), and performance. Experienced in leading distributed teams, fostering innovation culture, and implementing 'You Build It, You Run It' operational models.",
+    "location": {
+      "address": "B5-001 \nMHV, Financial District",
+      "postalCode": "500032",
+      "city": "Hyderabad",
+      "countryCode": "IN",
+      "region": "Telangana"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "taruntelang",
+        "url": "https://linkedin.com/in/taruntelang"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "name": "Leadership & Strategy",
+      "level": "Expert",
+      "keywords": [
+        "Team Leadership (30+ engineers)",
+        "Digital Transformation",
+        "Technology Roadmap Strategy",
+        "Cross-functional Collaboration",
+        "Agile Leadership",
+        "You Build It You Run It (YBIYRI)"
+      ]
+    },
+    {
+      "name": "Enterprise Architecture",
+      "level": "Expert",
+      "keywords": [
+        "Platform Architecture",
+        "Microservices Design",
+        "Scalability & Performance",
+        "System Integration",
+        "API Design Patterns",
+        "High-throughput Systems"
+      ]
+    },
+    {
+      "name": "Java & Spring Ecosystem",
+      "level": "Expert",
+      "keywords": [
+        "Java (20+ years)",
+        "Spring Framework",
+        "Spring Boot",
+        "RESTful Services",
+        "Object-oriented Design",
+        "Design Patterns"
+      ]
+    },
+    {
+      "name": "Frontend Technologies",
+      "level": "Advanced",
+      "keywords": [
+        "HTML5/CSS3",
+        "JavaScript",
+        "AngularJS",
+        "React",
+        "Bootstrap",
+        "Responsive Design"
+      ]
+    },
+    {
+      "name": "Testing & DevOps",
+      "level": "Expert",
+      "keywords": [
+        "JUnit Testing",
+        "Selenium Automation",
+        "Cucumber BDD",
+        "Jenkins CI/CD",
+        "Maven Build Tools",
+        "Git Version Control"
+      ]
+    },
+    {
+      "name": "Compliance & Security",
+      "level": "Expert",
+      "keywords": [
+        "GDPR Compliance",
+        "CCPA Regulation",
+        "PCI Standards",
+        "Data Privacy",
+        "Security Best Practices",
+        "Risk Management"
+      ]
+    },
+    {
+      "name": "Cloud & Infrastructure",
+      "level": "Expert",
+      "keywords": [
+        "AWS Cloud Platform",
+        "Azure Services",
+        "Container Technologies",
+        "Database Optimization",
+        "Performance Tuning",
+        "Scalable Infrastructure"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "name": "Lets Practice Academy",
+      "position": "Chief Technology Officer & Platform Director",
+      "url": "https://letspracticeacademy.in",
+      "startDate": "2021-06-15",
+      "summary": "Leading technology strategy and platform transformation for online learning ecosystem serving 100K+ professionals",
+      "highlights": [
+        "Architected and launched enterprise-grade learning platform from ground up, scaling to serve 100K+ professionals with 99.9% uptime",
+        "Led digital transformation initiative modernizing legacy systems, improving platform performance by 60% and reducing operational costs by 40%",
+        "Developed and executed multi-year technology roadmap aligning platform capabilities with business objectives and user growth projections",
+        "Implemented 'You Build It, You Run It' operational model across 5 development teams, increasing deployment frequency by 300% and reducing MTTR by 50%",
+        "Built scalable microservices architecture with containerized deployments, supporting exponential user growth from hundreds to millions",
+        "Established comprehensive security framework ensuring compliance with data protection regulations (GDPR, CCPA) for global user base",
+        "Drove innovation culture through continuous learning programs and mentorship, enabling team members' transition to senior technical leadership roles"
+      ]
+    },
+    {
+      "name": "Highspot",
+      "position": "Senior Manager - Meeting Intelligence Platform",
+      "url": "https://highspot.com",
+      "startDate": "2024-03-11",
+      "endDate": "2024-12-04",
+      "summary": "Led AI-driven platform development and cross-functional collaboration for enterprise meeting intelligence solutions",
+      "highlights": [
+        "Architected and delivered enterprise AI platform integrating with 4 major video platforms (Google, Zoom, Webex, RingCentral), processing 1M+ meetings monthly",
+        "Led cross-functional teams including product managers, data scientists, and external vendors to deliver complex AI/ML solutions on aggressive timelines",
+        "Designed scalable data ingestion pipeline handling high-volume meeting data with real-time processing and intelligent insights generation",
+        "Implemented enterprise-grade security measures and compliance frameworks ensuring data protection and privacy for Fortune 500 clients",
+        "Established continuous integration processes and automated testing frameworks, reducing deployment cycles from weeks to hours",
+        "Mentored junior engineers and data scientists, promoting culture of technical excellence and collaborative problem-solving"
+      ]
+    },
+    {
+      "name": "Microsoft",
+      "position": "Senior Software Engineer Lead - OneDrive and SharePoint Online",
+      "url": "https://microsoft.com",
+      "startDate": "2019-03-01",
+      "endDate": "2021-06-01",
+      "summary": "Led enterprise collaboration platform development for millions of business customers worldwide",
+      "highlights": [
+        "Led multiple scrum teams developing enterprise-grade collaboration systems for SharePoint Online, serving millions of business customers",
+        "Architected scalable backend systems and REST APIs supporting high-throughput data operations for OneDrive & SharePoint Admin Portal",
+        "Drove platform modernization initiative improving feature discovery by 20% and user engagement by 30% through intelligent UX enhancements",
+        "Collaborated with product teams to define and execute multi-quarter roadmap for admin portal capabilities and enterprise features",
+        "Implemented robust testing frameworks including unit, integration, and end-to-end testing, achieving 95% code coverage",
+        "Established security best practices and compliance measures for enterprise data handling and access control"
+      ]
+    },
+    {
+      "name": "OYO",
+      "position": "Director of Engineering & Products",
+      "url": "https://oyorooms.com",
+      "startDate": "2018-06-01",
+      "endDate": "2019-02-01",
+      "summary": "Led digital transformation of hospitality supply chain and hotel operations technology",
+      "highlights": [
+        "Directed engineering teams of 30+ developers across supply chain technology and hotel transformation business units",
+        "Architected and delivered property management platform reducing hotel go-live time by 30% and operational costs by 25%",
+        "Led digital transformation of hotel standardization processes through intelligent automation systems and AI-powered quality assessment",
+        "Built scalable cloud-based solutions on AWS supporting rapid business expansion across 80+ cities",
+        "Established agile development processes and DevOps practices, improving deployment frequency and system reliability",
+        "Collaborated with business stakeholders to align technology strategy with rapid expansion goals and market requirements"
+      ]
+    },
+    {
+      "name": "Oracle",
+      "position": "Senior Engineering Manager - Hospitality Cloud",
+      "url": "https://oracle.com",
+      "startDate": "2017-01-01",
+      "endDate": "2018-06-01",
+      "summary": "Led enterprise cloud platform development and compliance initiatives for global hospitality industry",
+      "highlights": [
+        "Managed multiple product development teams delivering Oracle Hospitality Cloud solutions for global hotel chains",
+        "Architected enterprise-grade booking engines and property management systems processing millions of transactions daily",
+        "Led comprehensive compliance initiative implementing PII, GDPR, and PCI compliance features across product portfolio",
+        "Designed and delivered RESTful APIs enabling seamless integration with third-party hospitality systems and payment processors",
+        "Established security-first development practices and conducted regular security audits ensuring enterprise-grade data protection",
+        "Collaborated with global product and business teams to define multi-year roadmap for cloud hospitality solutions"
+      ]
+    },
+    {
+      "name": "Polycom",
+      "position": "Engineering Manager - Video Collaboration Platform",
+      "url": "https://polycom.com",
+      "startDate": "2015-08-01",
+      "endDate": "2016-12-01",
+      "summary": "Led engineering teams and managed product development for enterprise video collaboration solutions",
+      "highlights": [
+        "Managed cross-functional engineering teams developing RealPresence Touch, pioneering video collaboration control solution adopted by Fortune 500 companies",
+        "Led product roadmap planning and resource allocation for video collaboration platform serving enterprise customers",
+        "Established engineering processes and quality standards, improving team productivity and product reliability",
+        "Collaborated with cross-functional teams including UX, product management, and business development to deliver market-leading solutions",
+        "Mentored engineering teams on best practices in enterprise software development and agile methodologies",
+        "Drove technical decision-making and architecture reviews for complex enterprise integration projects"
+      ]
+    },
+    {
+      "name": "Polycom",
+      "position": "Senior Staff Engineer - Video Collaboration Platform",
+      "url": "https://polycom.com",
+      "startDate": "2013-08-01",
+      "endDate": "2015-07-01",
+      "summary": "Architected and developed enterprise video collaboration solutions and system integrations",
+      "highlights": [
+        "Architected and developed RealPresence Touch video collaboration control solution, establishing technical foundation for enterprise adoption",
+        "Designed and implemented enterprise integration solutions including Salesforce.com connectivity, enabling seamless enterprise system interoperability",
+        "Established product standards compliance frameworks covering security, accessibility, and open source governance",
+        "Implemented continuous integration processes and automated testing suites improving product quality and release velocity",
+        "Delivered technical solutions for complex enterprise video collaboration requirements",
+        "Contributed to technical architecture decisions and platform design for scalable video collaboration systems"
+      ]
+    },
+    {
+      "name": "SAP Labs India",
+      "position": "Associate Architect",
+      "url": "https://sap.com",
+      "startDate": "2010-09-01",
+      "endDate": "2013-08-01",
+      "summary": "Led development of SAP NetWeaver modeling tools and next-generation ABAP platform architecture",
+      "highlights": [
+        "Delivered modeling tools based on SAP NetWeaver Development Studio converting complex business requirements into technical designs for web, mobile, and desktop",
+        "Enabled simplified development of SAP applications on SAP HANA & NetWeaver 7.4 platform with cloud-based business application modeling",
+        "Architected development tools for next-generation ABAP platform used by SAP ISVs & Partners for SAP ByD Platform and HANA",
+        "Developed Eclipse plug-ins for text analysis using EMF, Acceleo, XText, and GMF frameworks with comprehensive test automation",
+        "Designed high-level conceptual architecture for Asynchronous Outbound Modelled Process Agents and Semantic Contract Meta Objects",
+        "Led agile development methodologies and process improvement initiatives including Scrum and scenario-based development"
+      ]
+    },
+    {
+      "name": "Tata Consultancy Services (TCS)",
+      "position": "SAP Technical Consultant - BlackBerry Account",
+      "url": "https://tcs.com",
+      "startDate": "2009-04-01",
+      "endDate": "2010-09-01",
+      "summary": "Led SAP infrastructure optimization and business process consulting for Research In Motion (BlackBerry) as TCS consultant",
+      "highlights": [
+        "Optimized SAP business processes for BlackBerry's global operations achieving maximum efficiency and building resilient enterprise SAP infrastructure",
+        "Designed and developed executive dashboards and business transaction screens for RIM global employees using SAP ECC 6.0, SAP PI (XI), and SAP Enterprise Portal",
+        "Established architecture and technology consulting best practices within TCS for custom application development, system integration, and comprehensive testing",
+        "Led workshops identifying critical mappings between SAP systems and performed thorough unit and integration testing for mission-critical applications",
+        "Successfully supported Go-Live of enterprise applications serving BlackBerry's global workforce with zero downtime deployment",
+        "Contributed to TCS's global delivery model and methodology development for IT services offerings in enterprise consulting"
+      ]
+    },
+    {
+      "name": "SAP Labs India",
+      "position": "Principal Software Engineer",
+      "url": "https://sap.com",
+      "startDate": "2008-07-01",
+      "endDate": "2009-04-01",
+      "summary": "Led SAP NetWeaver Administrator and Solution Manager development with focus on system monitoring and management",
+      "highlights": [
+        "Project lead for remote system monitoring tools in SAP NetWeaver Administrator and Technical Administration module for SAP Solution Manager",
+        "Architected application management middleware providing routing, connection handling, landscape description, and data caching services",
+        "Optimized data access middleware and retrieval systems improving performance by 300% and scalability by 200%",
+        "Implemented industry standards including WS-Management (DMTF), Common Information Model (CIM), and Java Management Extensions (JMX)",
+        "Developed automatic routing services enabling seamless data integration for remote SAP systems with comprehensive caching solutions"
+      ]
+    },
+    {
+      "name": "SAP Labs India",
+      "position": "Senior Software Engineer",
+      "url": "https://sap.com",
+      "startDate": "2008-01-01",
+      "endDate": "2008-07-01",
+      "summary": "Developed enterprise web applications using MVC architecture for distributed system monitoring",
+      "highlights": [
+        "Developed web applications based on Model View Controller (MVC) architecture for distributed monitoring and management of enterprise applications",
+        "Implemented Java Management eXtension (JMX) architecture for retrieving management information from remote systems"
+      ]
+    },
+    {
+      "name": "SAP Labs India",
+      "position": "High Potential Fellowship",
+      "url": "https://sap.com",
+      "startDate": "2007-07-01",
+      "endDate": "2008-01-01",
+      "summary": "Designed Service-Oriented Architecture for on-demand financial accounting applications in Frankfurt, Germany",
+      "highlights": [
+        "Designed and architected Service-Oriented Architecture based on-demand financial accounting applications for small and medium enterprises",
+        "Developed innovative solutions for financial systems architecture during fellowship program in Frankfurt, Germany"
+      ]
+    },
+    {
+      "name": "SAP Labs India",
+      "position": "Development Specialist",
+      "url": "https://sap.com",
+      "startDate": "2005-06-01",
+      "endDate": "2007-06-01",
+      "summary": "Developed enterprise dashboards and monitoring solutions for SAP technical systems using agile methodologies",
+      "highlights": [
+        "Developed administration dashboards for remote monitoring of SAP technical systems using Adobe Flex over SAP NetWeaver Portal",
+        "Successfully reduced SAP systems operation costs and complexity while enabling easy-setup of central monitoring solutions",
+        "Built domain expertise in SAP NetWeaver Operations and drove Web Dynpro adoption as UI technology for the organization",
+        "Mentored new team members and coordinated with cross-functional teams for end-to-end product delivery using agile development processes",
+        "Developed requirement specifications and design proposals for planned features with comprehensive testing and documentation coordination"
+      ]
+    },
+    {
+      "name": "SAP Labs India",
+      "position": "Project Trainee",
+      "url": "https://sap.com",
+      "startDate": "2004-07-01",
+      "endDate": "2005-06-01",
+      "summary": "Developed Global Data Synchronization solution for retail industry supply chain management",
+      "highlights": [
+        "Developed Global Data Synchronization (GDS) solution for retailers enabling master data management across entire supply chain",
+        "Defined, developed, and tested XML-based message interfaces for SAP XI with comprehensive message mapping between iDocs and xCAT Web Services",
+        "Developed J2EE based proxy applications for testing XI interfaces and significantly improved team productivity using XML and Java technologies",
+        "Contributed Java and XML expertise to ABAP-focused development team, adding significant technical value to complex integration projects"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "International Institute of Information Technology, IIITB, Bangalore, India",
+      "url": "https://iiitb.ac.in",
+      "area": "Information Technology",
+      "studyType": "Master of Technology",
+      "startDate": "2003-06-01",
+      "endDate": "2005-05-01",
+      "score": "",
+      "courses": ["Software Engineering", "Distributed Systems", "Database Management"]
+    },
+    {
+      "institution": "Center of Development of Advanced Computing - CDAC, Hyderabad, India",
+      "url": "https://cdac.in",
+      "area": "Advanced Computing (Computer Science)",
+      "studyType": "Post Graduate Diploma",
+      "startDate": "2003-02-01",
+      "endDate": "2003-07-01",
+      "score": "",
+      "courses": ["Advanced Programming", "System Architecture"]
+    },
+    {
+      "institution": "Bhilai Institute of Technology - BIT, Durg, India",
+      "area": "Computer Science",
+      "studyType": "Bachelor of Engineering",
+      "startDate": "1998-07-01",
+      "endDate": "2002-06-01",
+      "score": "",
+      "courses": ["Computer Science Fundamentals", "Software Design Patterns"]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Polycom Engineering Excellence Award",
+      "date": "2011-09-01",
+      "awarder": "Polycom",
+      "summary": "Worldwide recognition for engineering excellence and innovative platform development"
+    },
+    {
+      "title": "SAP TechEd Keynote Demo",
+      "date": "2006-01-01",
+      "awarder": "SAP",
+      "summary": "Delivered Keynote Demo with SAP CEO at SAP TechEd 2006 (Las Vegas, Amsterdam & Bengaluru)"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "SAP Certified Development Consultant for Web Application Development with Java",
+      "date": "2005-01-01",
+      "issuer": "SAP",
+      "url": "https://training.sap.com/certification/"
+    },
+    {
+      "name": "Oracle Certified Java Programmer",
+      "date": "2006-01-01",
+      "issuer": "Oracle",
+      "url": "https://education.oracle.com/java/"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Practical Microservices Architectural Patterns: Build Highly Scalable Distributed Applications",
+      "publisher": "Apress (New York)",
+      "releaseDate": "2025-06-01",
+      "url": "https://link.springer.com/book/10.1007/978-1-4842-9894-0",
+      "image": "https://media.springernature.com/w306/springer-static/cover-hires/book/978-1-4842-9894-0",
+      "summary": "Comprehensive guide to microservices architectural patterns for enterprise systems"
+    },
+    {
+      "name": "Learn Microservices with Spring Boot 3",
+      "publisher": "Apress (New York)",
+      "releaseDate": "2023-09-01",
+      "url": "https://link.springer.com/book/10.1007/978-1-4842-9407-2",
+      "image": "https://media.springernature.com/w306/springer-static/cover-hires/book/978-1-4842-9407-2",
+      "summary": "Practical guide to building enterprise microservices with Spring Boot and Java"
+    },
+    {
+      "name": "Beginning Cloud-Native Application Development using MicroProfile, Jakarta EE, and Kubernetes",
+      "publisher": "Apress (New York)",
+      "releaseDate": "2022-12-01",
+      "url": "https://link.springer.com/book/10.1007/978-1-4842-8801-4",
+      "image": "https://media.springernature.com/w306/springer-static/cover-hires/book/978-1-4842-8801-4",
+      "summary": "Guide to modern cloud-native application development and containerization"
+    },
+    {
+      "name": "Java EE to Jakarta EE 10 Recipes: A Problem-Solution Approach",
+      "publisher": "Apress (New York)",
+      "releaseDate": "2022-07-01",
+      "url": "https://link.springer.com/book/10.1007/978-1-4842-8079-7",
+      "image": "https://media.springernature.com/w306/springer-static/cover-hires/book/978-1-4842-8079-7",
+      "summary": "Comprehensive problem-solution guide for migrating from Java EE to Jakarta EE 10 with practical recipes and best practices"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Native speaker"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Account Platform Modernization",
+      "description": "Led comprehensive platform modernization supporting millions of user accounts with enhanced security and performance",
+      "highlights": [
+        "Modernized legacy account systems",
+        "Enhanced security and compliance",
+        "Improved platform performance by 60%",
+        "Scaled to support millions of users"
+      ],
+      "keywords": [
+        "Platform Modernization",
+        "Account Management",
+        "Enterprise Scale",
+        "Security Enhancement"
+      ],
+      "startDate": "2020-01-01",
+      "endDate": "2025-01-01",
+      "type": "platform"
+    },
+    {
+      "name": "Multi-Year Technology Roadmap Execution",
+      "description": "Defined and executed comprehensive technology roadmap aligning platform capabilities with business objectives",
+      "highlights": [
+        "Strategic roadmap planning",
+        "Cross-functional alignment",
+        "Business objective achievement",
+        "Technology transformation delivery"
+      ],
+      "keywords": [
+        "Strategic Planning",
+        "Roadmap Execution",
+        "Business Alignment",
+        "Technology Strategy"
+      ],
+      "startDate": "2019-01-01",
+      "endDate": "2025-01-01",
+      "type": "strategy"
+    },
+    {
+      "name": "High-throughput Data Platform",
+      "description": "Architected enterprise data platform processing millions of transactions daily with 99.9% uptime",
+      "highlights": [
+        "Millions of daily transactions",
+        "99.9% uptime achievement",
+        "Enterprise-grade reliability",
+        "Scalable architecture design"
+      ],
+      "keywords": [
+        "High-throughput Systems",
+        "Data Platform",
+        "Enterprise Reliability",
+        "Scalable Architecture"
+      ],
+      "startDate": "2018-01-01",
+      "endDate": "2024-12-31",
+      "type": "platform"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Digital Transformation",
+      "keywords": [
+        "Platform Modernization",
+        "Legacy System Migration",
+        "Technology Strategy",
+        "Innovation Leadership"
+      ]
+    },
+    {
+      "name": "Team Development",
+      "keywords": [
+        "Technical Mentorship",
+        "Leadership Development",
+        "Culture Building",
+        "Knowledge Sharing"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request",
+      "reference": "References from senior leadership at Microsoft, Oracle, OYO, and other organizations available upon request"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2025-08-27T00:00:00.000Z",
+    "customization": "Tailored for JPMorgan Chase Director of Software Engineering - Account Open and Activation Platform"
+  }
+}

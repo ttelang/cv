@@ -2,22 +2,39 @@
 
 This repository contains professional resumes and CVs for Tarun Telang and family members in various formats optimized for different use cases.
 
+## 📄 Resume Generator System
+
+### Resume Generator (`resume-generator/`)
+Automated resume generation system with single source of truth architecture:
+- **`resume-generator.js`** - Dynamic resume generator class with themed CSS
+- **`build-resume.js`** - Build script for generating static HTML resumes
+- **`resume-dynamic.html`** - Interactive resume viewer with theme switching
+- **`README.md`** - Detailed generator documentation
+
+### Build Scripts
+```bash
+npm run build:standard    # Generate standard themed resume
+npm run build:jpmc       # Generate JPMorgan Chase themed resume
+npm run build:oreilly    # Generate O'Reilly themed resume
+```
+
+### JSON Resume (Primary Data Source)
+- **`resume.json`** - Main resume in JSON Resume schema format
+- **`resume-jpmc-director.json`** - JPMorgan Chase Director position specific resume
+  - Follows [JSON Resume Schema v1.0.0](https://jsonresume.org/schema/)
+  - Machine-readable and easily parseable
+  - Single source of truth preventing content duplication
+
 ## 📄 Resume Formats
 
-### JSON Resume (Recommended)
-- **`resume.json`** - Main resume in JSON Resume schema format
-  - Compatible with [jsonresume.org](https://jsonresume.org)
-  - Can be used with multiple themes and formats
-  - Machine-readable and easily parseable
-  - Follows the official [JSON Resume Schema v1.0.0](https://jsonresume.org/schema/)
-
-### HTML Resumes
+### Generated HTML Resumes
 - **`resume.html`** - Standard HTML resume format
+- **`resume-jpmc-director.html`** - JPMorgan Chase Director themed resume
 - **`resume-oreilly.html`** - O'Reilly-themed HTML resume for technical roles
   - Optimized for software engineering and AI/ML positions
   - Clean, professional design with technical focus
 
-### Markdown Resume
+### Legacy Formats
 - **`Resume.md`** - Markdown format for easy editing and version control
 
 ## 👥 Family Members
@@ -37,17 +54,30 @@ Located in `tarun/` folder:
 - **`resume-solutions-engineer.html`** - Solutions Engineer focused resume
 - **`resume-zeals.html`** - Company-specific resume format
 
-## 🚀 Using the JSON Resume
+## 🚀 Using the Resume Generator
 
-The `resume.json` file is the primary resume format and can be used in several ways:
+### Dynamic Resume Viewer
+Open `resume-generator/resume-dynamic.html` in your browser for an interactive resume viewer with:
+- Real-time theme switching (Standard, JPMorgan Chase, O'Reilly)
+- Print-optimized CSS
+- Responsive design for all screen sizes
+- Direct JSON loading and rendering
 
-### Online Rendering
-1. Visit [jsonresume.org](https://jsonresume.org)
-2. Upload the `resume.json` file
-3. Choose from various professional themes
-4. Export as PDF or share online
+### Building Static Resumes
+```bash
+npm run build:standard    # Generates resume.html
+npm run build:jpmc       # Generates resume-jpmc-director.html  
+npm run build:oreilly    # Generates resume-oreilly.html
+```
 
-### Local Development
+### Local Development Server
+```bash
+cd /workspaces/cv
+python3 -m http.server 8000
+# Then visit http://localhost:8000/resume-generator/resume-dynamic.html
+```
+
+### JSON Resume CLI (Alternative)
 ```bash
 # Install JSON Resume CLI
 npm install -g resume-cli
@@ -57,9 +87,6 @@ resume serve --theme elegant
 
 # Export to PDF
 resume export resume.pdf --theme elegant
-
-# Export to HTML
-resume export resume.html --theme elegant
 ```
 
 ### Available Themes
@@ -84,6 +111,7 @@ Popular themes that work well with this resume:
 - Developed AI-driven meeting intelligence systems
 - Architected microservices reducing response time by 45%
 - Led teams of 30+ engineers across multiple companies
+- Designed and implemented Web3 solutions and smart contracts
 
 ### Publications
 - **Practical Microservices Architectural Patterns** (Apress, 2025)
@@ -94,8 +122,9 @@ Popular themes that work well with this resume:
 
 ## 🛠️ Technical Skills
 
-- **Languages**: C#/.NET, Java/Spring, SQL Server
+- **Languages**: C#/.NET, Java/Spring, SQL Server, Solidity
 - **AI/ML**: Agentic Systems, NLP, Intelligent Automation
+- **Web3/Blockchain**: Smart Contracts, DeFi Protocols, Ethereum, Web3.js, dApps
 - **Cloud**: AWS, Azure, Cloud-Native Solutions
 - **Architecture**: Microservices, Enterprise Systems, REST APIs
 - **Leadership**: Team Building, Technical Vision, Agile Transformation

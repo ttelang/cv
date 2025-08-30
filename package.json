@@ -1,0 +1,25 @@
+{
+  "name": "cv-generator",
+  "version": "1.0.0",
+  "description": "Dynamic resume generator from JSON Resume schema",
+  "main": "resume-generator/resume-generator.js",
+  "scripts": {
+    "build": "node resume-generator/build-resume.js build",
+    "build:jpmc": "node resume-generator/build-resume.js build jpmc",
+    "build:standard": "node resume-generator/build-resume.js build standard",
+    "build:oreilly": "node resume-generator/build-resume.js build oreilly",
+    "serve": "python3 -m http.server 8000",
+    "dev": "npm run build:jpmc && npm run serve"
+  },
+  "keywords": [
+    "resume",
+    "cv",
+    "json-resume",
+    "generator",
+    "html"
+  ],
+  "author": "Tarun Telang",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}

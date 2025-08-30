@@ -131,6 +131,106 @@
         "Led conceptualization, implementation, and operations of Polycom RealPresence Touch, a pioneering video collaboration control solution",
         "Oversaw product standards compliance, open source, accessibility, and security (internal & external)"
       ]
+    },
+    {
+      "name": "SAP Labs India",
+      "position": "Associate Architect",
+      "url": "https://sap.com",
+      "startDate": "2010-09-01",
+      "endDate": "2013-08-01",
+      "summary": "Led SAP NetWeaver modeling tools and next-generation ABAP platform development",
+      "highlights": [
+        "Delivered modeling tools based on SAP NetWeaver Development Studio converting complex business requirements into technical designs",
+        "Enabled simplified development of SAP applications on SAP HANA & NetWeaver 7.4 platform with cloud-based business modeling",
+        "Developed Eclipse plug-ins for text analysis using EMF, Acceleo, XText, and GMF frameworks",
+        "Architected development tools for next-generation ABAP platform used by SAP ISVs & Partners",
+        "Designed high-level architecture for Asynchronous Outbound Modelled Process Agents and Semantic Contract Meta Objects",
+        "Led agile development methodologies and process improvement initiatives including Scrum"
+      ]
+    },
+    {
+      "name": "Tata Consultancy Services (TCS)",
+      "position": "SAP Technical Consultant - BlackBerry Account",
+      "url": "https://tcs.com",
+      "startDate": "2009-04-01",
+      "endDate": "2010-09-01",
+      "summary": "SAP consulting services for Research In Motion (BlackBerry) as TCS employee",
+      "highlights": [
+        "Optimized SAP business processes for BlackBerry's global operations achieving maximum efficiency as TCS consultant",
+        "Designed and developed dashboards for RIM global employees using SAP ECC 6.0, SAP PI (XI), and SAP Enterprise Portal",
+        "Established architecture and technology consulting best practices within TCS for application development and system integration",
+        "Participated in workshops identifying system mappings and performed comprehensive unit and integration testing",
+        "Supported successful Go-Live of critical business applications for BlackBerry's global operations",
+        "Contributed to TCS's global delivery model and methodology development for IT services consulting"
+      ]
+    },
+    {
+      "name": "SAP Labs India",
+      "position": "Principal Software Engineer",
+      "url": "https://sap.com",
+      "startDate": "2008-07-01",
+      "endDate": "2009-04-01",
+      "summary": "Led SAP NetWeaver Administrator and Solution Manager development",
+      "highlights": [
+        "Project lead for remote system monitoring tools in SAP NetWeaver Administrator",
+        "Architected application management middleware with routing, connection handling, and data caching services",
+        "Optimized data access middleware improving performance by 300% and scalability by 200%",
+        "Implemented industry standards including WS-Management, Common Information Model, and JMX",
+        "Developed automatic routing services enabling seamless data integration for remote SAP systems"
+      ]
+    },
+    {
+      "name": "SAP Labs India",
+      "position": "Senior Software Engineer",
+      "url": "https://sap.com",
+      "startDate": "2008-01-01",
+      "endDate": "2008-07-01",
+      "summary": "Developed enterprise web applications for distributed system monitoring",
+      "highlights": [
+        "Developed web applications using MVC architecture for distributed monitoring of enterprise applications",
+        "Implemented Java Management eXtension (JMX) architecture for remote system management"
+      ]
+    },
+    {
+      "name": "SAP Labs India",
+      "position": "High Potential Fellowship",
+      "url": "https://sap.com",
+      "startDate": "2007-07-01",
+      "endDate": "2008-01-01",
+      "summary": "Designed SOA-based financial applications in Frankfurt, Germany",
+      "highlights": [
+        "Designed Service-Oriented Architecture for on-demand financial accounting applications",
+        "Developed innovative solutions for small and medium enterprise financial systems"
+      ]
+    },
+    {
+      "name": "SAP Labs India",
+      "position": "Development Specialist",
+      "url": "https://sap.com",
+      "startDate": "2005-06-01",
+      "endDate": "2007-06-01",
+      "summary": "Developed enterprise dashboards and monitoring solutions using agile methodologies",
+      "highlights": [
+        "Developed administration dashboards for SAP technical systems using Adobe Flex over SAP NetWeaver Portal",
+        "Reduced SAP systems operation costs and complexity while enabling centralized monitoring",
+        "Built domain expertise in SAP NetWeaver Operations and drove Web Dynpro adoption",
+        "Mentored new team members and coordinated cross-functional delivery using agile processes",
+        "Developed requirement specifications and design proposals with comprehensive documentation"
+      ]
+    },
+    {
+      "name": "SAP Labs India",
+      "position": "Project Trainee",
+      "url": "https://sap.com",
+      "startDate": "2004-07-01",
+      "endDate": "2005-06-01",
+      "summary": "Developed Global Data Synchronization solution for retail supply chain",
+      "highlights": [
+        "Developed Global Data Synchronization (GDS) solution for retailers enabling supply chain data management",
+        "Defined and tested XML-based message interfaces for SAP XI with comprehensive mapping",
+        "Developed J2EE proxy applications for testing XI interfaces improving team productivity",
+        "Contributed Java and XML expertise to ABAP-focused development teams"
+      ]
     }
   ],
   "volunteer": [],
