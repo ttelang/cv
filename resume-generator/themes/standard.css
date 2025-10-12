@@ -1,0 +1,113 @@
+/* Standard Professional Theme */
+:root {
+  --primary-color: #2c3e50;
+  --secondary-color: #34495e;
+  --accent-color: #3498db;
+  --text-color: #333333;
+  --light-gray: #ecf0f1;
+  --border-color: #bdc3c7;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+  margin: 0;
+  padding: 20px;
+  background-color: white;
+}
+
+.resume-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+  padding: 40px;
+}
+
+.header {
+  text-align: center;
+  border-bottom: 3px solid var(--primary-color);
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.name {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 1.2em;
+  color: var(--secondary-color);
+  margin-bottom: 15px;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.section {
+  margin-bottom: 30px;
+}
+
+.section-title {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--accent-color);
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+.experience-item {
+  margin-bottom: 20px;
+}
+
+.job-title {
+  font-weight: bold;
+  font-size: 1.1em;
+  color: var(--primary-color);
+}
+
+.company {
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+
+.duration {
+  color: #666;
+  font-style: italic;
+}
+
+.description {
+  margin-top: 8px;
+  line-height: 1.6;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.skill-category {
+  background: var(--light-gray);
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.skill-category h4 {
+  margin-top: 0;
+  color: var(--primary-color);
+}
+
+@media print {
+  body { padding: 0; }
+  .resume-container { box-shadow: none; padding: 20px; }
+}

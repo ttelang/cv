@@ -1,43 +1,40 @@
 # CV Repository
 
-This repository contains professional resumes and CVs for Tarun Telang and family members in various formats optimized for different use cases.
+This repository contains professional resumes and CVs for multiple individuals in various formats optimized for different use cases.
 
-## 📄 Resume Generator System
+## Members
 
-### Resume Generator (`resume-generator/`)
-Automated resume generation system with single source of truth architecture:
-- **`resume-generator.js`** - Dynamic resume generator class with themed CSS
-- **`build-resume.js`** - Build script for generating static HTML resumes
-- **`resume-dynamic.html`** - Interactive resume viewer with theme switching
-- **`README.md`** - Detailed generator documentation
+### Tarun Telang
+Located in `tarun/` folder:
+- **Resume Generator System** (`tarun/resume-generator/`)
+  - **`resume-generator.js`** - Dynamic resume generator class with themed CSS
+  - **`build-resume.js`** - Build script for generating static HTML resumes
+  - **`resume-dynamic.html`** - Interactive resume viewer with theme switching
+  - **`README.md`** - Detailed generator documentation
+
+- **JSON Resume Data** (Primary Source)
+  - **`resume.json`** - Main resume in JSON Resume schema format
+  - **`resume-jpmc-director.json`** - JPMorgan Chase Director position specific resume
+  - Follows [JSON Resume Schema v1.0.0](https://jsonresume.org/schema/)
+  - Single source of truth preventing content duplication
+
+- **Generated HTML Resumes**
+  - **`resume.html`** - Standard HTML resume format
+  - **`resume-jpmc-director.html`** - JPMorgan Chase Director themed resume
+  - **`resume-oreilly.html`** - O'Reilly-themed HTML resume for technical roles
+  - **`resume-solutions-engineer.html`** - Solutions Engineer focused resume
+  - **`resume-zeals.html`** - Company-specific resume format
+
+- **Other Formats**
+  - **`Resume.md`** - Markdown format for easy editing and version control
+  - **`LInkedIn_Profile.pdf`** - LinkedIn profile reference document
 
 ### Build Scripts
 ```bash
-npm run build:standard    # Generate standard themed resume
-npm run build:jpmc       # Generate JPMorgan Chase themed resume
-npm run build:oreilly    # Generate O'Reilly themed resume
+npm run build:standard    # Generate standard themed resume in tarun/
+npm run build:jpmc       # Generate JPMorgan Chase themed resume in tarun/
+npm run build:oreilly    # Generate O'Reilly themed resume in tarun/
 ```
-
-### JSON Resume (Primary Data Source)
-- **`resume.json`** - Main resume in JSON Resume schema format
-- **`resume-jpmc-director.json`** - JPMorgan Chase Director position specific resume
-  - Follows [JSON Resume Schema v1.0.0](https://jsonresume.org/schema/)
-  - Machine-readable and easily parseable
-  - Single source of truth preventing content duplication
-
-## 📄 Resume Formats
-
-### Generated HTML Resumes
-- **`resume.html`** - Standard HTML resume format
-- **`resume-jpmc-director.html`** - JPMorgan Chase Director themed resume
-- **`resume-oreilly.html`** - O'Reilly-themed HTML resume for technical roles
-  - Optimized for software engineering and AI/ML positions
-  - Clean, professional design with technical focus
-
-### Legacy Formats
-- **`Resume.md`** - Markdown format for easy editing and version control
-
-## 👥 Family Members
 
 ### Kriti Telang
 Located in `kriti/` folder:
@@ -57,7 +54,7 @@ Located in `tarun/` folder:
 ## 🚀 Using the Resume Generator
 
 ### Dynamic Resume Viewer
-Open `resume-generator/resume-dynamic.html` in your browser for an interactive resume viewer with:
+Open `tarun/resume-generator/resume-dynamic.html` in your browser for an interactive resume viewer with:
 - Real-time theme switching (Standard, JPMorgan Chase, O'Reilly)
 - Print-optimized CSS
 - Responsive design for all screen sizes
@@ -65,16 +62,16 @@ Open `resume-generator/resume-dynamic.html` in your browser for an interactive r
 
 ### Building Static Resumes
 ```bash
-npm run build:standard    # Generates resume.html
-npm run build:jpmc       # Generates resume-jpmc-director.html  
-npm run build:oreilly    # Generates resume-oreilly.html
+npm run build:standard    # Generates tarun/resume-standard-generated.html
+npm run build:jpmc       # Generates tarun/resume-jpmc-generated.html  
+npm run build:oreilly    # Generates tarun/resume-oreilly-generated.html
 ```
 
 ### Local Development Server
 ```bash
 cd /workspaces/cv
 python3 -m http.server 8000
-# Then visit http://localhost:8000/resume-generator/resume-dynamic.html
+# Then visit http://localhost:8000/tarun/resume-generator/resume-dynamic.html
 ```
 
 ### JSON Resume CLI (Alternative)

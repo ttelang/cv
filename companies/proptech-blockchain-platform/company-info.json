@@ -1,0 +1,69 @@
+{
+  "companyName": "PropTech Blockchain Platform",
+  "industry": "PropTech/Real Estate Technology",
+  "size": "Startup (10-50 employees)",
+  "headquarters": "Remote-First (Global)",
+  "description": "Developing a next-generation Realtor Platform powered by blockchain and AI to make property transactions faster, more secure, and more transparent. The platform features tokenized property listings, smart contract-driven deals, decentralized MLS capabilities, virtual tours, and AI-powered recommendations.",
+  "funding": {
+    "stage": "Series A/B",
+    "budget": "$2.2M+",
+    "investors": ["Blockchain VCs", "PropTech Funds", "Real Estate Industry Partners"]
+  },
+  "mission": "Revolutionize real estate transactions through blockchain technology and AI, making property deals more transparent, secure, and efficient for all participants.",
+  "values": [
+    "Innovation in blockchain and real estate technology",
+    "Transparency and security in all transactions", 
+    "Decentralization and democratization of real estate",
+    "Technical excellence and code quality",
+    "Global accessibility and remote-first culture"
+  ],
+  "culture": {
+    "workEnvironment": "Remote-first, globally distributed, fast-paced startup",
+    "collaboration": "Cross-functional teams with strong engineering focus",
+    "development": "Continuous learning in blockchain and PropTech domains",
+    "innovation": "Cutting-edge technology implementation and experimentation"
+  },
+  "techStack": [
+    "Blockchain (Ethereum, Polygon, Solidity)",
+    "Backend (Node.js, Go, Python)",
+    "Frontend (React, Next.js, TypeScript)",
+    "Cloud (AWS/Azure/GCP, Kubernetes, Docker)",
+    "AI/ML (TensorFlow, PyTorch for recommendations)",
+    "Databases (PostgreSQL, MongoDB, IPFS)"
+  ],
+  "products": {
+    "primary": "Blockchain-powered Real Estate Platform",
+    "features": [
+      "Tokenized property listings",
+      "Smart contract escrow and transactions",
+      "Decentralized MLS system",
+      "AI-powered property recommendations",
+      "Virtual property tours",
+      "Automated compliance checking",
+      "Multi-party transaction coordination"
+    ],
+    "targetMarket": ["Real estate agents", "Property buyers/sellers", "Real estate investors", "Property developers"]
+  },
+  "preferredSkills": [
+    "Blockchain development and smart contracts",
+    "Real estate industry knowledge",
+    "Distributed systems architecture",
+    "Team leadership and remote management",
+    "PropTech or FinTech experience",
+    "Security-first development mindset",
+    "Agile/Scrum methodologies",
+    "AI/ML integration experience"
+  ],
+  "workingStyle": {
+    "remote": "100% remote with global team distribution",
+    "hours": "Flexible across time zones with core collaboration hours",
+    "meetings": "Asynchronous-first with regular sync points",
+    "tools": ["Slack", "Zoom", "GitHub", "Jira", "Notion", "Figma"]
+  },
+  "growthPlan": {
+    "expansion": "Global market penetration starting with US and EU",
+    "teamGrowth": "Scale from 15 to 50+ engineers over 18 months",
+    "technologyEvolution": "Advanced AI features, additional blockchain integrations",
+    "partnerships": "Real estate agencies, MLS providers, financial institutions"
+  }
+}

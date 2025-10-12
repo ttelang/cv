@@ -1,0 +1,272 @@
+version: '3.8'
+
+services:
+  # API Gateway
+  api-gateway:
+    build: ./gateway
+    ports:
+      - "8080:8080"
+    environment:
+      - NODE_ENV=development
+      - USER_SERVICE_URL=http://user-service:3001
+      - RESUME_SERVICE_URL=http://resume-service:3002
+      - JOB_SERVICE_URL=http://job-service:3003
+      - COACHING_SERVICE_URL=http://coaching-service:3004
+    depends_on:
+      - user-service
+      - resume-service
+      - job-service
+      - coaching-service
+    networks:
+      - career-platform
+
+  # User Service
+  user-service:
+    build: ./services/user-service
+    ports:
+      - "3001:3001"
+    environment:
+      - NODE_ENV=development
+      - PORT=3001
+      - DATABASE_URL=postgresql://postgres:password@postgres:5432/career_platform
+      - REDIS_URL=redis://redis:6379
+      - JWT_SECRET=your-jwt-secret-key
+      - JWT_REFRESH_SECRET=your-refresh-secret-key
+    depends_on:
+      - postgres
+      - redis
+    networks:
+      - career-platform
+    volumes:
+      - ./services/user-service:/app
+      - /app/node_modules
+
+  # Resume Service
+  resume-service:
+    build: ./services/resume-service
+    ports:
+      - "3002:3002"
+    environment:
+      - NODE_ENV=development
+      - PORT=3002
+      - MONGODB_URL=mongodb://mongo:27017/career_platform
+      - REDIS_URL=redis://redis:6379
+      - AWS_ACCESS_KEY_ID=your-aws-key
+      - AWS_SECRET_ACCESS_KEY=your-aws-secret
+      - AWS_REGION=us-east-1
+      - AWS_S3_BUCKET=career-platform-files
+    depends_on:
+      - mongo
+      - redis
+    networks:
+      - career-platform
+    volumes:
+      - ./services/resume-service:/app
+      - /app/node_modules
+
+  # Job Service
+  job-service:
+    build: ./services/job-service
+    ports:
+      - "3003:3003"
+    environment:
+      - NODE_ENV=development
+      - PORT=3003
+      - DATABASE_URL=postgresql://postgres:password@postgres:5432/career_platform
+      - ELASTICSEARCH_URL=http://elasticsearch:9200
+      - REDIS_URL=redis://redis:6379
+    depends_on:
+      - postgres
+      - elasticsearch
+      - redis
+    networks:
+      - career-platform
+
+  # Coaching Service
+  coaching-service:
+    build: ./services/coaching-service
+    ports:
+      - "3004:3004"
+    environment:
+      - NODE_ENV=development
+      - PORT=3004
+      - DATABASE_URL=postgresql://postgres:password@postgres:5432/career_platform
+      - REDIS_URL=redis://redis:6379
+      - STRIPE_SECRET_KEY=your-stripe-secret-key
+      - ZOOM_API_KEY=your-zoom-api-key
+    depends_on:
+      - postgres
+      - redis
+    networks:
+      - career-platform
+
+  # Analytics Service
+  analytics-service:
+    build: ./services/analytics-service
+    ports:
+      - "3005:3005"
+    environment:
+      - NODE_ENV=development
+      - PORT=3005
+      - TIMESCALEDB_URL=postgresql://postgres:password@timescaledb:5432/analytics
+      - KAFKA_BROKERS=kafka:9092
+      - REDIS_URL=redis://redis:6379
+    depends_on:
+      - timescaledb
+      - kafka
+      - redis
+    networks:
+      - career-platform
+
+  # Frontend Application
+  frontend:
+    build: ./apps/web
+    ports:
+      - "3000:3000"
+    environment:
+      - REACT_APP_API_URL=http://localhost:8080
+      - REACT_APP_WS_URL=ws://localhost:8080
+    depends_on:
+      - api-gateway
+    networks:
+      - career-platform
+    volumes:
+      - ./apps/web:/app
+      - /app/node_modules
+
+  # Databases
+  postgres:
+    image: postgres:15
+    environment:
+      - POSTGRES_DB=career_platform
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./database/init:/docker-entrypoint-initdb.d
+    networks:
+      - career-platform
+
+  mongo:
+    image: mongo:6
+    environment:
+      - MONGO_INITDB_DATABASE=career_platform
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    networks:
+      - career-platform
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - career-platform
+
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.8.0
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    ports:
+      - "9200:9200"
+    volumes:
+      - elasticsearch_data:/usr/share/elasticsearch/data
+    networks:
+      - career-platform
+
+  timescaledb:
+    image: timescale/timescaledb:latest-pg15
+    environment:
+      - POSTGRES_DB=analytics
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=password
+    ports:
+      - "5433:5432"
+    volumes:
+      - timescaledb_data:/var/lib/postgresql/data
+    networks:
+      - career-platform
+
+  # Message Queue
+  kafka:
+    image: confluentinc/cp-kafka:latest
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+    ports:
+      - "9092:9092"
+    depends_on:
+      - zookeeper
+    networks:
+      - career-platform
+
+  zookeeper:
+    image: confluentinc/cp-zookeeper:latest
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+    ports:
+      - "2181:2181"
+    networks:
+      - career-platform
+
+  # Monitoring
+  prometheus:
+    image: prom/prometheus:latest
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./monitoring/prometheus.yml:/etc/prometheus/prometheus.yml
+      - prometheus_data:/prometheus
+    networks:
+      - career-platform
+
+  grafana:
+    image: grafana/grafana:latest
+    ports:
+      - "3001:3000"
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+    volumes:
+      - grafana_data:/var/lib/grafana
+      - ./monitoring/grafana/dashboards:/etc/grafana/provisioning/dashboards
+      - ./monitoring/grafana/datasources:/etc/grafana/provisioning/datasources
+    networks:
+      - career-platform
+
+  # AI/ML Services
+  ml-service:
+    build: ./services/ml-service
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONPATH=/app
+      - MODEL_PATH=/app/models
+    volumes:
+      - ./services/ml-service:/app
+      - ./models:/app/models
+    networks:
+      - career-platform
+
+volumes:
+  postgres_data:
+  mongo_data:
+  redis_data:
+  elasticsearch_data:
+  timescaledb_data:
+  prometheus_data:
+  grafana_data:
+
+networks:
+  career-platform:
+    driver: bridge

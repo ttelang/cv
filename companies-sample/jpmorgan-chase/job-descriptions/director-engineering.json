@@ -1,0 +1,45 @@
+{
+  "role": "Director of Software Engineering",
+  "level": "Executive",
+  "department": "Technology",
+  "location": "New York, NY / London, UK / Mumbai, India",
+  "reportingStructure": "Reports to VP of Engineering",
+  "teamSize": "30-50 engineers",
+  "keyResponsibilities": [
+    "Lead and scale engineering organizations across multiple products and platforms",
+    "Drive digital transformation initiatives and modernization of legacy systems",
+    "Establish engineering excellence practices and operational frameworks",
+    "Partner with business stakeholders to align technology strategy with business objectives",
+    "Implement 'You Build It, You Run It' operational models",
+    "Ensure compliance with regulatory requirements (GDPR, PCI, SOX)",
+    "Foster innovation culture and technical excellence across teams"
+  ],
+  "requiredSkills": [
+    "15+ years of software engineering experience",
+    "7+ years of engineering leadership experience",
+    "Experience in financial services or highly regulated industries",
+    "Expertise in enterprise architecture and platform development",
+    "Strong background in agile methodologies and DevOps practices",
+    "Experience with compliance and regulatory frameworks",
+    "Proven track record of scaling engineering teams"
+  ],
+  "preferredSkills": [
+    "Experience with cloud platforms (AWS, Azure, GCP)",
+    "Knowledge of financial markets and trading systems",
+    "Background in microservices and distributed systems",
+    "Experience with data privacy and security best practices",
+    "MBA or advanced technical degree"
+  ],
+  "keywords": [
+    "engineering leadership", "digital transformation", "financial services",
+    "regulatory compliance", "platform architecture", "team scaling",
+    "stakeholder management", "agile transformation", "operational excellence",
+    "risk management", "enterprise systems", "cloud migration"
+  ],
+  "culturalValues": [
+    "Exceptional client service",
+    "Operational excellence", 
+    "Integrity",
+    "Respect for individuals"
+  ]
+}

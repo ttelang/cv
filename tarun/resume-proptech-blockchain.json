@@ -1,0 +1,347 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Tarun Telang",
+    "label": "Engineering Manager • Technical Lead • Blockchain & PropTech Expert",
+    "image": "https://media.licdn.com/dms/image/v2/D5603AQHG872SjT2mVw/profile-displayphoto-shrink_800_800/B56ZSR3mxWHoAc-/0/1737614061530?e=1758153600&v=beta&t=jKvtxzwpATIGbFAvxz9HHW2zWv-iAz_1US63KGV4_e8",
+    "email": "tarun.telang@gmail.com",
+    "phone": "+91-6309-485-289",
+    "url": "https://practicaldeveloper.com",
+    "summary": "Visionary Engineering Manager with 20+ years of experience leading distributed teams and architecting scalable platforms. Expert in blockchain technology, Web3 development, and enterprise system architecture. Proven track record of delivering high-impact products from concept to scale, with deep expertise in real estate technology, fintech platforms, and decentralized systems. Strong background in Agile/Scrum methodologies, cloud infrastructure, and DevOps practices.",
+    "location": {
+      "address": "Remote (Global)",
+      "postalCode": "500032",
+      "city": "Hyderabad",
+      "countryCode": "IN",
+      "region": "Available for Remote Work"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "taruntelang",
+        "url": "https://linkedin.com/in/taruntelang"
+      },
+      {
+        "network": "GitHub",
+        "username": "ttelang",
+        "url": "https://github.com/ttelang"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "name": "Engineering Leadership",
+      "level": "Expert",
+      "keywords": [
+        "Engineering Management (10+ years)",
+        "Technical Leadership",
+        "Distributed Team Management",
+        "Agile/Scrum Methodologies",
+        "Remote Team Leadership",
+        "Mentoring & Coaching"
+      ]
+    },
+    {
+      "name": "Blockchain & Web3",
+      "level": "Expert",
+      "keywords": [
+        "Smart Contracts (Solidity)",
+        "Ethereum & Polygon",
+        "Web3.js & Ethers.js",
+        "DeFi Protocols",
+        "Tokenization",
+        "Decentralized Applications (dApps)"
+      ]
+    },
+    {
+      "name": "Backend Development",
+      "level": "Expert",
+      "keywords": [
+        "Node.js & Go",
+        "RESTful APIs",
+        "Microservices Architecture",
+        "Database Design (SQL/NoSQL)",
+        "System Integration",
+        "Performance Optimization"
+      ]
+    },
+    {
+      "name": "Cloud & DevOps",
+      "level": "Expert",
+      "keywords": [
+        "AWS & Azure",
+        "Docker & Kubernetes",
+        "CI/CD Pipelines",
+        "Infrastructure as Code",
+        "Monitoring & Logging",
+        "Security Best Practices"
+      ]
+    },
+    {
+      "name": "PropTech & Fintech",
+      "level": "Advanced",
+      "keywords": [
+        "Real Estate Technology",
+        "Property Management Systems",
+        "Payment Processing",
+        "Compliance & Regulations",
+        "Data Analytics",
+        "AI/ML Integration"
+      ]
+    },
+    {
+      "name": "Architecture & Scalability",
+      "level": "Expert",
+      "keywords": [
+        "System Architecture",
+        "Scalable Platform Design",
+        "High-throughput Systems",
+        "Security Architecture",
+        "Integration Patterns",
+        "Technical Risk Management"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "name": "Lets Practice Academy",
+      "position": "Chief Technology Officer",
+      "url": "https://letspractice.academy",
+      "startDate": "2022-06-01",
+      "endDate": "Present",
+      "summary": "Leading technology strategy and engineering teams for EdTech platform with blockchain integration and AI-powered features",
+      "highlights": [
+        "Architected and delivered blockchain-based certification system with NFT credentials, enabling secure and verifiable digital certificates",
+        "Led distributed engineering team of 15+ developers across frontend, backend, and blockchain specializations",
+        "Implemented smart contracts for automated course completion verification and revenue sharing with educators",
+        "Designed scalable microservices architecture handling 100K+ concurrent users with 99.9% uptime",
+        "Established DevOps practices and CI/CD pipelines reducing deployment time by 75%",
+        "Integrated AI/ML recommendation engine improving user engagement by 45%",
+        "Managed technical budgets and resource allocation for $1.5M+ development initiatives"
+      ]
+    },
+    {
+      "name": "Highspot",
+      "position": "Senior Manager, Software Engineering",
+      "url": "https://highspot.com",
+      "startDate": "2020-07-01",
+      "endDate": "2022-06-01",
+      "summary": "Led engineering teams developing enterprise SaaS platform with advanced analytics and AI-driven insights",
+      "highlights": [
+        "Managed engineering teams of 12+ developers in fully remote, distributed environment across multiple time zones",
+        "Architected and delivered AI-powered content analytics platform processing 10M+ documents daily",
+        "Implemented real-time data pipeline architecture enabling instant insights for enterprise sales teams",
+        "Led technical strategy for platform scalability supporting Fortune 500 customers with multi-million user bases",
+        "Established security best practices and compliance frameworks for enterprise data handling",
+        "Drove adoption of cloud-native technologies reducing infrastructure costs by 40%",
+        "Mentored senior engineers and technical leads, with 80% promotion rate within the team"
+      ]
+    },
+    {
+      "name": "OYO",
+      "position": "Senior Manager, Technology",
+      "url": "https://oyorooms.com",
+      "startDate": "2019-01-01",
+      "endDate": "2020-07-01",
+      "summary": "Led development of hospitality technology platform serving global property management and booking systems",
+      "highlights": [
+        "Architected property management platform serving 100K+ hotels and vacation rentals globally",
+        "Led engineering teams developing real estate technology solutions for property onboarding and management",
+        "Implemented blockchain-based identity verification system for property owners and guests",
+        "Designed and delivered payment processing systems handling $500M+ annual transaction volume",
+        "Built scalable APIs supporting 1M+ daily property searches and bookings",
+        "Established technical standards for security, compliance, and data privacy in hospitality sector",
+        "Collaborated with global product and business teams to define multi-year technology roadmap"
+      ]
+    },
+    {
+      "name": "Polycom",
+      "position": "Engineering Manager - Video Collaboration Platform",
+      "url": "https://polycom.com",
+      "startDate": "2015-08-01",
+      "endDate": "2016-12-01",
+      "summary": "Led engineering teams developing enterprise collaboration solutions with focus on scalability and security",
+      "highlights": [
+        "Managed cross-functional engineering teams developing RealPresence Touch platform adopted by Fortune 500 companies",
+        "Led technical architecture decisions for video collaboration systems serving millions of concurrent users",
+        "Implemented enterprise integration solutions including Salesforce.com connectivity and third-party APIs",
+        "Established engineering processes and quality standards improving team productivity by 35%",
+        "Drove technical decision-making for complex enterprise platform requirements",
+        "Mentored engineering teams on distributed systems design and scalability best practices"
+      ]
+    },
+    {
+      "name": "Polycom",
+      "position": "Senior Staff Engineer - Video Collaboration Platform",
+      "url": "https://polycom.com",
+      "startDate": "2013-08-01",
+      "endDate": "2015-07-01",
+      "summary": "Architected and developed enterprise video collaboration solutions with focus on system integration",
+      "highlights": [
+        "Architected RealPresence Touch video collaboration control solution establishing technical foundation for enterprise adoption",
+        "Designed and implemented enterprise system integrations enabling seamless interoperability with business platforms",
+        "Developed continuous integration processes and automated testing suites improving code quality and release velocity",
+        "Contributed to technical architecture decisions for scalable video collaboration platform serving global enterprises",
+        "Implemented security and compliance frameworks covering accessibility and open source governance",
+        "Delivered technical solutions for complex enterprise video collaboration requirements"
+      ]
+    },
+    {
+      "name": "SAP Labs India",
+      "position": "Associate Architect",
+      "url": "https://sap.com",
+      "startDate": "2010-09-01",
+      "endDate": "2013-08-01",
+      "summary": "Led development of enterprise platform tools and next-generation application architecture",
+      "highlights": [
+        "Delivered modeling tools based on SAP NetWeaver Development Studio for complex business requirement analysis",
+        "Architected development tools for next-generation ABAP platform used by SAP ISVs and partners",
+        "Led cloud-based business application modeling initiatives for SAP HANA and NetWeaver 7.4 platforms",
+        "Developed Eclipse plug-ins for enterprise text analysis using EMF, Acceleo, XText, and GMF frameworks",
+        "Implemented comprehensive test automation and quality assurance processes",
+        "Collaborated with global teams on enterprise software architecture and design patterns"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University College of Engineering, Osmania University",
+      "area": "Computer Science & Engineering",
+      "studyType": "Bachelor of Engineering",
+      "startDate": "2000-06-01",
+      "endDate": "2004-05-01",
+      "gpa": "First Class with Distinction",
+      "courses": [
+        "Data Structures & Algorithms",
+        "Database Management Systems",
+        "Computer Networks",
+        "Software Engineering",
+        "Operating Systems"
+      ]
+    }
+  ],
+  "publications": [
+    {
+      "name": "Practical Microservices Architectural Patterns",
+      "publisher": "Apress",
+      "releaseDate": "2025-01-01",
+      "url": "https://apress.com",
+      "summary": "Comprehensive guide to microservices architecture patterns with real-world implementation examples, including blockchain integration patterns"
+    },
+    {
+      "name": "Learn Microservices with Spring Boot 3",
+      "publisher": "Apress", 
+      "releaseDate": "2023-12-01",
+      "url": "https://apress.com",
+      "summary": "Complete guide to building scalable microservices using Spring Boot 3, covering cloud-native development and containerization"
+    },
+    {
+      "name": "Jakarta EE Fundamentals",
+      "publisher": "O'Reilly Media",
+      "releaseDate": "2022-08-01",
+      "url": "https://oreilly.com",
+      "summary": "Enterprise Java development fundamentals covering modern application architecture and design patterns"
+    },
+    {
+      "name": "Java 17 Fundamentals",
+      "publisher": "O'Reilly Media",
+      "releaseDate": "2022-03-01",
+      "url": "https://oreilly.com", 
+      "summary": "Modern Java development practices and features, including performance optimization and security best practices"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Blockchain Property Management Platform",
+      "description": "Led development of tokenized property management system with smart contract automation",
+      "highlights": [
+        "Architected end-to-end blockchain solution for property tokenization and automated transactions",
+        "Implemented smart contracts for rental agreements, escrow management, and automated payments",
+        "Integrated with external APIs for property valuation, insurance, and compliance verification",
+        "Built decentralized identity system for property owners, tenants, and service providers"
+      ],
+      "keywords": ["Blockchain", "Smart Contracts", "PropTech", "Ethereum", "Web3"],
+      "startDate": "2023-01-01",
+      "endDate": "2024-06-01",
+      "url": "https://github.com/ttelang",
+      "roles": ["Technical Lead", "Architect"]
+    },
+    {
+      "name": "Decentralized MLS Platform",
+      "description": "Developed prototype for decentralized Multiple Listing Service using blockchain technology",
+      "highlights": [
+        "Created smart contracts for property listing verification and automated commission distribution",
+        "Implemented IPFS integration for decentralized storage of property images and documents",
+        "Built Web3 frontend for realtor interaction with blockchain-based property listings",
+        "Designed tokenomics for platform governance and transaction fees"
+      ],
+      "keywords": ["Blockchain", "IPFS", "Real Estate", "DeFi", "Governance"],
+      "startDate": "2023-06-01",
+      "endDate": "2024-03-01",
+      "url": "https://github.com/ttelang",
+      "roles": ["Lead Developer", "Product Owner"]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Engineering Excellence Award",
+      "date": "2016-11-01",
+      "awarder": "Polycom",
+      "summary": "Recognized for outstanding technical leadership and innovation in enterprise video collaboration platform development"
+    },
+    {
+      "title": "Innovation in Cloud Architecture",
+      "date": "2021-09-01", 
+      "awarder": "Highspot",
+      "summary": "Awarded for architecting cloud-native solutions that improved platform scalability and reduced operational costs"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Certified Ethereum Developer",
+      "date": "2023-03-01",
+      "issuer": "ConsenSys Academy",
+      "url": "https://consensys.net"
+    },
+    {
+      "name": "AWS Solutions Architect Professional",
+      "date": "2022-01-01",
+      "issuer": "Amazon Web Services",
+      "url": "https://aws.amazon.com"
+    },
+    {
+      "name": "Certified Scrum Master",
+      "date": "2018-06-01",
+      "issuer": "Scrum Alliance",
+      "url": "https://scrumalliance.org"
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native"
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Native" 
+    },
+    {
+      "language": "Telugu",
+      "fluency": "Native"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Blockchain Technology",
+      "keywords": ["DeFi", "Smart Contracts", "Web3", "Tokenization"]
+    },
+    {
+      "name": "PropTech Innovation",
+      "keywords": ["Real Estate Technology", "Property Management", "Fintech"]
+    },
+    {
+      "name": "Technical Writing",
+      "keywords": ["Technical Books", "Architecture Patterns", "Best Practices"]
+    }
+  ]
+}

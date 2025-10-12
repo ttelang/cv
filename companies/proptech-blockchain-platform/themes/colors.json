@@ -1,0 +1,45 @@
+{
+  "brandColors": {
+    "primary": "#2E8B57",
+    "secondary": "#4169E1", 
+    "accent": "#FFD700",
+    "neutral": "#F5F5F5",
+    "blockchain": "#6C5CE7",
+    "success": "#00BFA5"
+  },
+  "typography": {
+    "headingFont": "Inter, sans-serif",
+    "bodyFont": "Roboto, sans-serif",
+    "codeFont": "Monaco, monospace",
+    "headingWeight": "600",
+    "bodyWeight": "400"
+  },
+  "layout": {
+    "headerStyle": "modern",
+    "sectionSpacing": "comfortable",
+    "alignment": "left-aligned",
+    "cardStyle": "rounded with subtle shadows"
+  },
+  "emphasis": {
+    "highlightBlockchainTerms": true,
+    "showTechnicalProjects": true,
+    "emphasizeRemoteWork": true,
+    "showStartupExperience": true,
+    "highlightLeadershipImpact": true,
+    "showScalabilityAchievements": true
+  },
+  "iconography": {
+    "blockchain": "🔗",
+    "proptech": "🏠",
+    "remote": "🌐",
+    "leadership": "👥",
+    "innovation": "💡",
+    "security": "🔒"
+  },
+  "resumeOptimizations": {
+    "keywordDensity": "Medium-high for blockchain and PropTech terms",
+    "projectHighlights": "Emphasize distributed systems and team leadership",
+    "experienceFormat": "Impact-focused with quantified results",
+    "skillsPresentation": "Technical expertise with blockchain prominence"
+  }
+}

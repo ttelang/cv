@@ -1,0 +1,43 @@
+{
+  "company": "Microsoft Corporation",
+  "url": "https://microsoft.com",
+  "industry": "Technology",
+  "positions": [
+    {
+      "title": "Senior Software Engineering Manager",
+      "startDate": "2019-01-01",
+      "endDate": "2022-06-01",
+      "department": "Microsoft 365",
+      "location": "Redmond, WA",
+      "summary": "Led development of enterprise collaboration platform serving millions of users",
+      "highlights": {
+        "general": [
+          "Managed engineering team of 12+ developers across multiple time zones",
+          "Delivered high-impact features for Microsoft Teams platform",
+          "Implemented CI/CD pipelines reducing deployment time by 60%"
+        ],
+        "finance": [
+          "Delivered enterprise-grade solutions with strong focus on compliance and security",
+          "Managed multi-million dollar platform serving Fortune 500 financial institutions",
+          "Implemented SOX compliance measures and audit trail capabilities"
+        ],
+        "tech": [
+          "Architected microservices handling 100M+ API calls daily",
+          "Led adoption of cloud-native technologies and containerization",
+          "Implemented ML-driven user experience optimizations"
+        ]
+      },
+      "technologies": ["C#", ".NET Core", "Azure", "Kubernetes", "React"],
+      "achievements": [
+        "Led team that delivered Microsoft Teams Chat functionality",
+        "Reduced system latency by 45% through performance optimization",
+        "Mentored 5 engineers who were promoted to senior roles"
+      ]
+    }
+  ],
+  "companyContext": {
+    "size": "Large Enterprise (>100,000 employees)",
+    "revenue": "$200B+",
+    "industry": "Cloud Computing & Software"
+  }
+}

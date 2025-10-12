@@ -1,0 +1,27 @@
+[
+  {
+    "id": "technology",
+    "name": "Technology",
+    "subcategories": ["Software Development", "Cloud Computing", "AI/ML", "Data Science", "DevOps"]
+  },
+  {
+    "id": "finance",
+    "name": "Financial Services",
+    "subcategories": ["Investment Banking", "Risk Management", "Trading", "Compliance", "Fintech"]
+  },
+  {
+    "id": "consulting",
+    "name": "Consulting",
+    "subcategories": ["Management Consulting", "Technology Consulting", "Strategy", "Operations"]
+  },
+  {
+    "id": "healthcare",
+    "name": "Healthcare",
+    "subcategories": ["Pharmaceuticals", "Medical Devices", "Digital Health", "Biotechnology"]
+  },
+  {
+    "id": "proptech",
+    "name": "PropTech & Real Estate",
+    "subcategories": ["Real Estate Technology", "Property Management", "Blockchain Real Estate", "Virtual Tours", "Property Analytics"]
+  }
+]

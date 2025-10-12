@@ -1,0 +1,42 @@
+{
+  "jpmorgan-chase": {
+    "theme": "finance",
+    "colors": {
+      "primary": "#dc382d",
+      "accent": "#856404"
+    },
+    "keywords": ["financial services", "risk management", "compliance", "investment banking", "trading systems"]
+  },
+  "microsoft": {
+    "theme": "tech",
+    "colors": {
+      "primary": "#0078d4",
+      "accent": "#005a9e"
+    },
+    "keywords": ["cloud", "AI", "enterprise", "azure", "scalability"]
+  },
+  "oracle": {
+    "theme": "tech",
+    "colors": {
+      "primary": "#f80000",
+      "accent": "#c74634"
+    },
+    "keywords": ["database", "enterprise software", "cloud infrastructure", "middleware"]
+  },
+  "google": {
+    "theme": "tech",
+    "colors": {
+      "primary": "#4285f4",
+      "accent": "#34a853"
+    },
+    "keywords": ["search", "AI", "machine learning", "distributed systems", "innovation"]
+  },
+  "proptech-blockchain-platform": {
+    "theme": "tech",
+    "colors": {
+      "primary": "#2E8B57",
+      "accent": "#4169E1"
+    },
+    "keywords": ["blockchain", "web3", "proptech", "real estate technology", "smart contracts", "ethereum", "distributed systems", "remote leadership"]
+  }
+}

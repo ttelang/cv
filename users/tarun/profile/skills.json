@@ -1,0 +1,52 @@
+{
+  "technical": {
+    "name": "Programming Languages",
+    "level": "Expert",
+    "keywords": ["Java", "Python", "JavaScript", "TypeScript", "Go", "Scala", "SQL"]
+  },
+  "frameworks": {
+    "name": "Frameworks & Libraries", 
+    "level": "Expert",
+    "keywords": ["Spring Boot", "Node.js", "React", "Angular", "Django", "Express.js", "Hibernate"]
+  },
+  "cloud": {
+    "name": "Cloud Platforms",
+    "level": "Expert", 
+    "keywords": ["AWS", "Microsoft Azure", "Google Cloud", "Kubernetes", "Docker", "Terraform"]
+  },
+  "databases": {
+    "name": "Databases",
+    "level": "Expert",
+    "keywords": ["PostgreSQL", "MongoDB", "Redis", "Oracle", "MySQL", "Elasticsearch", "DynamoDB"]
+  },
+  "architecture": {
+    "name": "Architecture & Design",
+    "level": "Expert",
+    "keywords": ["Microservices", "Event-Driven Architecture", "Domain-Driven Design", "API Design", "System Design"]
+  },
+  "leadership": {
+    "name": "Leadership & Management",
+    "level": "Expert", 
+    "keywords": ["Team Leadership", "Engineering Management", "Agile/Scrum", "Product Strategy", "Mentoring"]
+  },
+  "certifications": [
+    {
+      "name": "AWS Certified Solutions Architect - Professional",
+      "issuer": "Amazon Web Services",
+      "date": "2023-06-15",
+      "url": "https://aws.amazon.com/certification/"
+    },
+    {
+      "name": "Certified Kubernetes Administrator (CKA)",
+      "issuer": "Cloud Native Computing Foundation",
+      "date": "2023-03-20",
+      "url": "https://www.cncf.io/certification/cka/"
+    },
+    {
+      "name": "Professional Scrum Master I",
+      "issuer": "Scrum.org",
+      "date": "2022-11-10",
+      "url": "https://www.scrum.org/professional-scrum-master-i-certification"
+    }
+  ]
+}

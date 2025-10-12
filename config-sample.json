@@ -1,0 +1,93 @@
+{
+  "companies": {
+    "jpmorgan-chase": {
+      "name": "JPMorgan Chase & Co.",
+      "industry": "Financial Services",
+      "theme": "finance",
+      "colors": {
+        "primary": "#dc382d",
+        "accent": "#856404",
+        "text": "#333333"
+      },
+      "keywords": [
+        "financial services", "risk management", "compliance", "regulatory",
+        "enterprise architecture", "digital transformation", "agile",
+        "stakeholder management", "capital markets", "investment banking"
+      ],
+      "values": [
+        "Exceptional client service", "Operational excellence", 
+        "Integrity", "Respect for individuals"
+      ]
+    },
+    "microsoft": {
+      "name": "Microsoft Corporation",
+      "industry": "Technology",
+      "theme": "tech",
+      "colors": {
+        "primary": "#0078d4",
+        "accent": "#005a9e",
+        "text": "#323130"
+      },
+      "keywords": [
+        "cloud computing", "AI/ML", "enterprise software", "SaaS",
+        "microservices", "DevOps", "Azure", "scalability",
+        "innovation", "digital transformation"
+      ],
+      "values": [
+        "Respect", "Integrity", "Accountability", "Inclusivity"
+      ]
+    },
+    "oracle": {
+      "name": "Oracle Corporation",
+      "industry": "Enterprise Software",
+      "theme": "enterprise",
+      "colors": {
+        "primary": "#c74634",
+        "accent": "#ff0000",
+        "text": "#333333"
+      },
+      "keywords": [
+        "enterprise applications", "database", "cloud infrastructure",
+        "ERP", "CRM", "supply chain", "middleware", "Java",
+        "autonomous systems", "machine learning"
+      ]
+    }
+  },
+  "themes": {
+    "finance": {
+      "name": "Financial Services",
+      "template": "executive",
+      "emphasis": ["leadership", "compliance", "risk management"],
+      "sections": ["summary", "experience", "education", "skills", "awards"]
+    },
+    "tech": {
+      "name": "Technology",
+      "template": "tech",
+      "emphasis": ["technical skills", "projects", "publications"],
+      "sections": ["summary", "skills", "experience", "projects", "education"]
+    },
+    "standard": {
+      "name": "Standard Professional",
+      "template": "standard",
+      "emphasis": ["experience", "achievements"],
+      "sections": ["summary", "experience", "education", "skills"]
+    }
+  },
+  "roles": {
+    "director": {
+      "level": "executive",
+      "keywords": ["strategic", "leadership", "transformation", "vision"],
+      "emphasis": ["team leadership", "business impact", "strategic initiatives"]
+    },
+    "senior-manager": {
+      "level": "management",
+      "keywords": ["management", "delivery", "coordination", "execution"],
+      "emphasis": ["project delivery", "team management", "stakeholder relations"]
+    },
+    "principal-engineer": {
+      "level": "technical-lead",
+      "keywords": ["architecture", "technical leadership", "innovation"],
+      "emphasis": ["technical expertise", "system design", "mentoring"]
+    }
+  }
+}

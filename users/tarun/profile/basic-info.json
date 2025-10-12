@@ -1,0 +1,33 @@
+{
+  "name": "Tarun Telang",
+  "label": "Director of Engineering | Technology Leader | Author",
+  "image": "",
+  "email": "tarun.telang@example.com",
+  "phone": "+1 (555) 123-4567",
+  "url": "https://www.taruntelang.com",
+  "summary": "Accomplished technology leader with 15+ years of experience building and scaling high-performance engineering teams. Proven track record in financial services, enterprise software, and cloud technologies. Published author of technical books and thought leader in microservices architecture.",
+  "location": {
+    "address": "",
+    "postalCode": "",
+    "city": "New York",
+    "countryCode": "US",
+    "region": "NY"
+  },
+  "profiles": [
+    {
+      "network": "LinkedIn",
+      "username": "taruntelang",
+      "url": "https://linkedin.com/in/taruntelang"
+    },
+    {
+      "network": "GitHub",
+      "username": "ttelang",
+      "url": "https://github.com/ttelang"
+    },
+    {
+      "network": "Twitter",
+      "username": "taruntelang",
+      "url": "https://twitter.com/taruntelang"
+    }
+  ]
+}

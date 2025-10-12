@@ -1,0 +1,120 @@
+{
+  "jobId": "jpm-dir-eng-001",
+  "metadata": {
+    "company": "jpmorgan-chase",
+    "title": "Director of Engineering",
+    "department": "Technology",
+    "level": "Director",
+    "location": ["New York, NY", "Jersey City, NJ", "Remote"],
+    "employmentType": "Full-time",
+    "postedDate": "2025-09-01",
+    "expiryDate": "2025-10-31",
+    "recruiterId": "sarah.johnson@jpmc.com",
+    "jobUrl": "https://careers.jpmorgan.com/jobs/director-engineering-001"
+  },
+  "overview": {
+    "summary": "Lead a high-performing engineering team building next-generation financial technology solutions. Drive technical strategy, mentor senior engineers, and deliver scalable systems serving millions of clients globally.",
+    "businessUnit": "Consumer & Community Banking",
+    "reportingStructure": {
+      "reportsTo": "Vice President of Engineering",
+      "directReports": 8,
+      "totalTeamSize": 25
+    }
+  },
+  "responsibilities": [
+    "Lead and mentor a team of 8+ senior engineers and technical leads",
+    "Drive technical strategy and architecture decisions for consumer banking platforms",
+    "Collaborate with product managers to define and execute technology roadmap",
+    "Ensure compliance with financial regulations and security standards",
+    "Implement agile development practices and DevOps culture",
+    "Partner with cross-functional teams across technology, operations, and business",
+    "Drive innovation in fintech solutions and emerging technologies",
+    "Manage technical debt and ensure scalable system architecture"
+  ],
+  "requirements": {
+    "essential": [
+      "12+ years of software engineering experience",
+      "5+ years of engineering leadership experience", 
+      "Experience with large-scale distributed systems",
+      "Strong background in financial services or fintech",
+      "Proficiency in Java, Python, or similar languages",
+      "Experience with cloud platforms (AWS, Azure, GCP)",
+      "Knowledge of microservices architecture",
+      "Understanding of regulatory requirements (SOX, PCI-DSS)"
+    ],
+    "preferred": [
+      "MBA or advanced technical degree",
+      "Experience with trading systems or risk management",
+      "Knowledge of blockchain or cryptocurrency technologies",
+      "Previous experience at tier-1 financial institutions",
+      "Certified in cloud architectures (AWS Solutions Architect, etc.)",
+      "Experience with AI/ML in financial applications"
+    ]
+  },
+  "technicalStack": {
+    "languages": ["Java", "Python", "JavaScript", "TypeScript", "Scala"],
+    "frameworks": ["Spring Boot", "React", "Node.js", "Angular"],
+    "databases": ["Oracle", "PostgreSQL", "MongoDB", "Redis"],
+    "cloud": ["AWS", "Azure", "Kubernetes", "Docker"],
+    "tools": ["Jenkins", "Git", "Jira", "Confluence", "Splunk"],
+    "methodologies": ["Agile", "Scrum", "DevOps", "CI/CD"]
+  },
+  "compensation": {
+    "salaryRange": {
+      "min": 200000,
+      "max": 280000,
+      "currency": "USD"
+    },
+    "bonus": "20-35% of base salary",
+    "equity": "RSUs based on performance",
+    "benefits": [
+      "Health, dental, vision insurance",
+      "401k with company match",
+      "Flexible PTO",
+      "Professional development budget",
+      "Tuition reimbursement"
+    ]
+  },
+  "keywords": {
+    "technical": [
+      "Java", "Python", "microservices", "distributed systems", "cloud architecture",
+      "DevOps", "CI/CD", "Kubernetes", "AWS", "financial technology"
+    ],
+    "leadership": [
+      "engineering management", "team leadership", "technical strategy",
+      "cross-functional collaboration", "mentoring", "agile leadership"
+    ],
+    "domain": [
+      "financial services", "banking", "fintech", "regulatory compliance",
+      "risk management", "trading systems", "consumer banking"
+    ]
+  },
+  "culturalFit": {
+    "values": [
+      "Client focus",
+      "Operational excellence", 
+      "Integrity",
+      "Great team culture",
+      "Innovation"
+    ],
+    "workStyle": "Collaborative, fast-paced, results-oriented",
+    "growthOpportunities": [
+      "Path to VP of Engineering",
+      "Cross-business unit exposure",
+      "Global team leadership",
+      "Executive development programs"
+    ]
+  },
+  "assessmentCriteria": {
+    "technical": {
+      "systemDesign": "Design scalable financial systems",
+      "codingChallenge": "Java/Python problem solving",
+      "architectureReview": "Review existing system architecture"
+    },
+    "leadership": {
+      "situationalQuestions": "Team conflict resolution scenarios",
+      "caseStudy": "Technical decision-making process",
+      "presentationSkills": "Technical strategy presentation"
+    }
+  }
+}

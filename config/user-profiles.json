@@ -1,0 +1,22 @@
+{
+  "tarun": {
+    "defaultTheme": "tech",
+    "preferences": {
+      "includePhoto": false,
+      "skillsLayout": "categories",
+      "experienceFormat": "detailed"
+    },
+    "targets": ["jpmorgan-chase", "microsoft", "oracle"],
+    "outputFormats": ["html", "pdf"]
+  },
+  "kriti": {
+    "defaultTheme": "finance",
+    "preferences": {
+      "includePhoto": true,
+      "skillsLayout": "list",
+      "experienceFormat": "concise"
+    },
+    "targets": ["lloyds", "jpmorgan-chase"],
+    "outputFormats": ["html", "pdf"]
+  }
+}

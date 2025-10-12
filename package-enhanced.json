@@ -1,0 +1,32 @@
+{
+  "name": "cv-multi-user-generator",
+  "version": "2.0.0",
+  "description": "Multi-user resume generator system with company targeting and theme support",
+  "main": "resume-generator/resume-generator.js",
+  "scripts": {
+    "build:user": "node resume-generator/build-resume.js --user",
+    "build:tarun:jpmc": "node resume-generator/build-resume.js --user=tarun --target=jpmc --role=director",
+    "build:tarun:tech": "node resume-generator/build-resume.js --user=tarun --theme=tech",
+    "build:tarun:standard": "node resume-generator/build-resume.js --user=tarun --theme=standard",
+    "build:kriti:lloyds": "node resume-generator/build-resume.js --user=kriti --target=lloyds",
+    "build:all": "node resume-generator/build-resume.js --all-users",
+    "compile:tarun": "node resume-generator/compile-resume.js --user=tarun",
+    "compile:kriti": "node resume-generator/compile-resume.js --user=kriti",
+    "validate": "node resume-generator/validate-data.js",
+    "serve": "python3 -m http.server 8000",
+    "dev:tarun": "npm run compile:tarun && npm run build:tarun:jpmc && npm run serve"
+  },
+  "keywords": [
+    "resume",
+    "cv",
+    "json-resume",
+    "generator",
+    "multi-user",
+    "themes",
+    "targeting"
+  ],
+  "author": "Telang Family",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}

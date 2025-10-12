@@ -1,0 +1,36 @@
+{
+  "name": "Tarun Telang",
+  "label": "Director of Software Engineering • Digital Transformation Leader • Platform Architect",
+  "email": "tarun.telang@gmail.com",
+  "phone": "+91-6309-485-289",
+  "url": "https://practicaldeveloper.com",
+  "summary": {
+    "default": "Visionary engineering leader with 20+ years of experience driving digital transformation and leading high-performing teams.",
+    "finance": "Experienced technology leader with 20+ years in enterprise software development, specializing in financial services platforms, regulatory compliance, and digital transformation initiatives.",
+    "tech": "Senior engineering leader and published author with expertise in cloud architecture, AI/ML systems, and enterprise platform development.",
+    "executive": "Strategic technology executive with proven track record of building and scaling engineering organizations, driving innovation, and delivering business impact."
+  },
+  "location": {
+    "address": "B5-001 MHV, Financial District",
+    "postalCode": "500032",
+    "city": "Hyderabad",
+    "countryCode": "IN",
+    "region": "Telangana"
+  },
+  "profiles": [
+    {
+      "network": "LinkedIn",
+      "username": "taruntelang",
+      "url": "https://linkedin.com/in/taruntelang"
+    },
+    {
+      "network": "GitHub", 
+      "username": "ttelang",
+      "url": "https://github.com/ttelang"
+    },
+    {
+      "network": "Website",
+      "url": "https://practicaldeveloper.com"
+    }
+  ]
+}

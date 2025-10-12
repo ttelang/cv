@@ -31,6 +31,13 @@ class ResumeBuildScript {
                 primaryColor: '#ff6b35',
                 accentColor: '#1a365d',
                 booksColor: '#2d3748'
+            },
+            proptech: {
+                name: 'PropTech Blockchain Platform',
+                jsonFile: '../tarun/resume-proptech-blockchain.json',
+                primaryColor: '#1a202c',
+                accentColor: '#3182ce',
+                booksColor: '#38a169'
             }
         };
     }
@@ -222,7 +229,7 @@ document.addEventListener('DOMContentLoaded', async function() {
                 console.log(`📄 Generating ${themeConfig.name} resume...`);
                 
                 const html = await this.generateResumeHTML(themeKey);
-                const outputFile = path.join('..', `resume-${themeKey}-generated.html`);
+                const outputFile = `resume-${themeKey}-generated.html`;
                 
                 await fs.writeFile(outputFile, html, 'utf8');
                 console.log(`✅ Generated: ${outputFile}`);
@@ -252,7 +259,7 @@ document.addEventListener('DOMContentLoaded', async function() {
             console.log(`📄 Generating ${themeConfig.name} resume...`);
             
             const html = await this.generateResumeHTML(theme);
-            const outputFile = path.join('..', `resume-${theme}-generated.html`);
+            const outputFile = `resume-${theme}-generated.html`;
             
             await fs.writeFile(outputFile, html, 'utf8');
             console.log(`✅ Generated: ${outputFile}`);

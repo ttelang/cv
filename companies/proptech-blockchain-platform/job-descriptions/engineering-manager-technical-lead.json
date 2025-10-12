@@ -1,0 +1,200 @@
+{
+  "jobId": "proptech-eng-mgr-001",
+  "metadata": {
+    "company": "proptech-blockchain-platform",
+    "title": "Engineering Manager / Technical Lead – Real Estate Blockchain Platform",
+    "department": "Engineering",
+    "level": "Manager",
+    "location": ["Remote (Global)"],
+    "employmentType": "Contract",
+    "contractDetails": {
+      "duration": "9-12 months",
+      "extensionPotential": "High",
+      "workType": "Full-time or Part-time",
+      "hourlyRate": {
+        "min": 85,
+        "max": 120,
+        "currency": "USD"
+      }
+    },
+    "postedDate": "2025-09-10",
+    "startDate": "Immediate",
+    "budget": "$2.2M+",
+    "jobUrl": "https://example.com/proptech-engineering-manager"
+  },
+  "overview": {
+    "summary": "Lead the technical execution of a next-generation Realtor Platform powered by blockchain and AI. Drive technical strategy, manage distributed engineering teams, and deliver a revolutionary property transaction platform featuring tokenized listings, smart contracts, and AI-powered recommendations.",
+    "businessUnit": "Product Engineering",
+    "projectScope": "Blockchain-powered real estate platform with tokenized property listings, smart contract-driven deals, decentralized MLS capabilities, virtual tours, and AI recommendations",
+    "reportingStructure": {
+      "reportsTo": "CTO / Founder",
+      "directReports": "5-8 engineers",
+      "totalTeamSize": "10-15 (scaling)",
+      "teamComposition": ["Frontend Engineers", "Backend Engineers", "Blockchain Engineers", "DevOps Engineers"]
+    }
+  },
+  "responsibilities": [
+    "Define and own the technical architecture for the platform (blockchain + web application + integrations)",
+    "Lead and mentor a distributed team of frontend, backend, blockchain, and DevOps engineers",
+    "Collaborate closely with Product Manager, UX/UI Designer, and stakeholders to align business goals with technical execution",
+    "Make key decisions on tech stack, frameworks, and development best practices",
+    "Oversee code quality, security, scalability, and performance of the platform",
+    "Manage sprint execution, code reviews, and release cycles",
+    "Troubleshoot and resolve technical issues, ensuring delivery against project milestones",
+    "Support hiring and onboarding of additional engineers as the team scales",
+    "Provide input on budgeting, resourcing, and technical risk management",
+    "Ensure blockchain security best practices and smart contract auditing",
+    "Drive integration with real estate APIs, MLS systems, and payment processors",
+    "Establish monitoring, logging, and DevOps practices for blockchain infrastructure"
+  ],
+  "requirements": {
+    "essential": [
+      "5+ years of experience in software engineering",
+      "2+ years in a tech lead or engineering management role",
+      "Strong expertise in backend and/or blockchain development",
+      "Experience leading Agile/Scrum teams in distributed, remote environments",
+      "Solid understanding of system architecture, cloud infrastructure, and DevOps practices",
+      "Excellent communication, leadership, and decision-making skills",
+      "Experience with distributed team management and remote collaboration",
+      "Understanding of software development lifecycle and project management",
+      "Strong problem-solving and technical troubleshooting abilities"
+    ],
+    "preferred": [
+      "Experience with blockchain/Web3 projects (smart contracts, Ethereum, Polygon, or similar)",
+      "Background in real estate tech, fintech, or PropTech platforms",
+      "Hands-on coding ability in Go, Node.js, or Solidity",
+      "Familiarity with security best practices in blockchain applications",
+      "Prior experience scaling systems handling large data sets and payments",
+      "Experience with tokenization and DeFi protocols",
+      "Knowledge of real estate industry workflows and MLS systems",
+      "Experience with AI/ML integration in production systems",
+      "Previous startup or scale-up experience",
+      "Smart contract development and auditing experience"
+    ]
+  },
+  "technicalStack": {
+    "blockchain": ["Ethereum", "Polygon", "Solidity", "Web3.js", "Smart Contracts", "DeFi Protocols"],
+    "backend": ["Node.js", "Go", "Python", "Express.js", "GraphQL", "REST APIs"],
+    "frontend": ["React", "Next.js", "TypeScript", "Web3 Integration", "Responsive Design"],
+    "databases": ["PostgreSQL", "MongoDB", "Redis", "IPFS", "Blockchain Storage"],
+    "cloud": ["AWS", "Azure", "GCP", "Docker", "Kubernetes", "Terraform"],
+    "tools": ["Git", "Jira", "Slack", "GitHub Actions", "Jenkins", "Hardhat", "Truffle"],
+    "monitoring": ["Grafana", "Prometheus", "New Relic", "Blockchain Analytics"],
+    "security": ["Smart Contract Auditing", "Penetration Testing", "Encryption", "Multi-sig Wallets"]
+  },
+  "compensation": {
+    "hourlyRate": {
+      "min": 85,
+      "max": 120,
+      "currency": "USD"
+    },
+    "contractTerms": {
+      "duration": "9-12 months",
+      "extensionLikelihood": "High",
+      "workArrangement": "Flexible (Full-time or Part-time)"
+    },
+    "additionalBenefits": [
+      "Fully remote work environment",
+      "Flexible working hours across global time zones",
+      "Professional development opportunities",
+      "Access to blockchain conferences and training",
+      "Potential for equity/token allocation",
+      "High-impact project ownership"
+    ],
+    "projectBudget": "$2.2M+ well-funded initiative"
+  },
+  "keywords": {
+    "technical": [
+      "blockchain", "web3", "smart contracts", "solidity", "ethereum", "polygon",
+      "node.js", "go", "react", "typescript", "defi", "tokenization",
+      "distributed systems", "microservices", "api development", "cloud architecture"
+    ],
+    "leadership": [
+      "engineering management", "technical leadership", "team mentoring",
+      "agile scrum", "remote team management", "distributed teams",
+      "technical strategy", "architecture decisions", "code quality"
+    ],
+    "domain": [
+      "proptech", "real estate technology", "fintech", "blockchain applications",
+      "property transactions", "mls integration", "payment processing",
+      "real estate innovation", "property tokenization"
+    ],
+    "skills": [
+      "system architecture", "devops", "security", "scalability", "performance",
+      "code reviews", "sprint management", "technical risk management",
+      "hiring", "onboarding", "budgeting", "stakeholder collaboration"
+    ]
+  },
+  "culturalFit": {
+    "values": [
+      "Innovation in blockchain and real estate",
+      "Technical excellence and security",
+      "Collaborative remote-first culture",
+      "Transparency and decentralization",
+      "Rapid execution and delivery"
+    ],
+    "workStyle": "Remote-first, globally distributed, fast-paced startup environment with high autonomy and ownership",
+    "teamCulture": "Collaborative, tech-forward, blockchain-native, results-oriented",
+    "growthOpportunities": [
+      "Technical leadership in emerging blockchain technology",
+      "Potential for long-term engagement and team expansion",
+      "Opportunity to shape architecture of innovative PropTech platform",
+      "Experience with large-scale blockchain implementation",
+      "Leadership role in well-funded startup environment"
+    ]
+  },
+  "projectDetails": {
+    "platform": "Next-generation Realtor Platform",
+    "keyFeatures": [
+      "Tokenized property listings",
+      "Smart contract-driven deals",
+      "Decentralized MLS capabilities", 
+      "Virtual tours integration",
+      "AI-powered property recommendations",
+      "Secure blockchain transactions",
+      "Multi-party escrow systems",
+      "Automated compliance checking"
+    ],
+    "technologyFocus": "Blockchain + AI + Real Estate",
+    "userBase": "Real estate agents, buyers, sellers, investors",
+    "scalingPlan": "Global expansion with multi-region deployment"
+  },
+  "applicationProcess": {
+    "required": [
+      "CV/Resume highlighting relevant experience",
+      "GitHub profile demonstrating technical expertise",
+      "Brief note on leadership and technical experience in blockchain/PropTech/high-scale platforms"
+    ],
+    "evaluationCriteria": [
+      "Technical leadership experience in blockchain or complex systems",
+      "Remote team management and distributed collaboration skills",
+      "Understanding of real estate technology or fintech domains",
+      "Code quality and architecture design capabilities",
+      "Communication and stakeholder management abilities"
+    ],
+    "interviewProcess": [
+      "Initial screening on leadership and technical background",
+      "Technical architecture discussion and system design",
+      "Team leadership and management methodology review",
+      "Blockchain and PropTech domain knowledge assessment",
+      "Cultural fit and remote work capability evaluation"
+    ]
+  },
+  "assessmentCriteria": {
+    "technical": {
+      "systemDesign": "Design scalable blockchain-based real estate platform architecture",
+      "blockchainKnowledge": "Smart contract design and security considerations",
+      "teamLeadership": "Managing distributed engineering teams and technical decisions"
+    },
+    "leadership": {
+      "teamManagement": "Remote team leadership and mentoring approaches",
+      "technicalStrategy": "Technology stack decisions and architecture planning",
+      "stakeholderManagement": "Collaboration with product, design, and business teams"
+    },
+    "domain": {
+      "proptechUnderstanding": "Real estate industry knowledge and technology applications",
+      "blockchainImplementation": "Practical experience with blockchain project delivery",
+      "scalabilityPlanning": "Approaches to scaling blockchain and web applications"
+    }
+  }
+}

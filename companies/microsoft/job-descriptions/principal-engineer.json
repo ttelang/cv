@@ -1,0 +1,80 @@
+{
+  "jobId": "msft-peng-002",
+  "metadata": {
+    "company": "microsoft",
+    "title": "Principal Engineer",
+    "department": "Azure Cloud Services",
+    "level": "Principal",
+    "location": ["Seattle, WA", "Redmond, WA", "Remote"],
+    "employmentType": "Full-time",
+    "postedDate": "2025-09-05",
+    "expiryDate": "2025-11-15",
+    "jobUrl": "https://careers.microsoft.com/jobs/principal-engineer-azure"
+  },
+  "overview": {
+    "summary": "Drive technical excellence and innovation in Azure cloud infrastructure. Lead cross-team initiatives, mentor engineers, and shape the future of cloud computing at global scale.",
+    "businessUnit": "Azure Cloud Platform",
+    "reportingStructure": {
+      "reportsTo": "Partner Engineering Manager",
+      "directReports": 0,
+      "influenceScope": "50+ engineers across multiple teams"
+    }
+  },
+  "responsibilities": [
+    "Design and architect large-scale distributed cloud systems",
+    "Lead technical initiatives across multiple engineering teams",
+    "Mentor and guide senior engineers and tech leads",
+    "Drive adoption of best practices and engineering standards",
+    "Collaborate with product management on technical roadmap",
+    "Represent Microsoft at technical conferences and industry events",
+    "Contribute to open-source projects and technical publications"
+  ],
+  "requirements": {
+    "essential": [
+      "15+ years of software engineering experience",
+      "Deep expertise in distributed systems and cloud architecture",
+      "Strong programming skills in C#, Go, or similar languages",
+      "Experience with containerization and orchestration (Kubernetes)",
+      "Knowledge of networking, security, and infrastructure concepts",
+      "Track record of leading large-scale technical projects"
+    ],
+    "preferred": [
+      "PhD in Computer Science or related field",
+      "Experience building cloud platforms or infrastructure",
+      "Open-source contributions and technical thought leadership",
+      "Previous experience at major cloud providers",
+      "Expertise in AI/ML infrastructure and services"
+    ]
+  },
+  "technicalStack": {
+    "languages": ["C#", "Go", "Python", "TypeScript", "Rust"],
+    "platforms": ["Azure", "Kubernetes", "Docker", "Linux"],
+    "tools": ["Git", "Azure DevOps", "Terraform", "Prometheus"],
+    "domains": ["Cloud Infrastructure", "Distributed Systems", "Microservices"]
+  },
+  "compensation": {
+    "salaryRange": {
+      "min": 220000,
+      "max": 320000,
+      "currency": "USD"
+    },
+    "bonus": "15-25% of base salary",
+    "equity": "Significant RSU grant",
+    "benefits": [
+      "Comprehensive health coverage",
+      "Unlimited PTO",
+      "Professional development budget",
+      "Home office setup allowance"
+    ]
+  },
+  "keywords": {
+    "technical": [
+      "distributed systems", "cloud architecture", "microservices", "kubernetes",
+      "azure", "scalability", "performance", "reliability"
+    ],
+    "leadership": [
+      "technical leadership", "mentoring", "cross-team collaboration",
+      "technical strategy", "innovation", "best practices"
+    ]
+  }
+}

@@ -1,0 +1,352 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Tarun Telang",
+    "label": "Engineering Leader | Blockchain & AI Expert",
+    "image": "https://media.licdn.com/dms/image/v2/D5603AQHG872SjT2mVw/profile-displayphoto-shrink_800_800/B56ZSR3mxWHoAc-/0/1737614061530?e=1758153600&v=beta&t=jKvtxzwpATIGbFAvxz9HHW2zWv-iAz_1US63KGV4_e8",
+    "email": "tarun.telang@gmail.com",
+    "phone": "+91-6309-485-289",
+    "url": "https://practicaldeveloper.com",
+    "summary": "Experienced Engineering Manager with 20+ years leading distributed teams and architecting scalable blockchain platforms. Expert in Ethereum, Polygon, and smart contract development with deep expertise in real estate technology and PropTech solutions. Proven track record of delivering high-impact property transaction platforms from concept to scale, managing $2M+ budgets and teams of 15+ engineers across global time zones. Strong background in Agile/Scrum methodologies, cloud infrastructure (AWS, Azure, GCP), and DevOps practices with hands-on coding ability in Go, Node.js, and Solidity.",
+    "location": {
+      "address": "Remote (Global)",
+      "postalCode": "500032", 
+      "city": "Hyderabad",
+      "countryCode": "IN",
+      "region": "Available for Remote Work - All Time Zones"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "taruntelang",
+        "url": "https://linkedin.com/in/taruntelang"
+      },
+      {
+        "network": "GitHub", 
+        "username": "ttelang",
+        "url": "https://github.com/ttelang"
+      },
+      {
+        "network": "Portfolio",
+        "username": "practicaldeveloper",
+        "url": "https://practicaldeveloper.com"
+      }
+    ]
+  },
+  "skills": [
+    {
+      "name": "Blockchain & Web3 Development",
+      "level": "Expert",
+      "keywords": [
+        "Ethereum & Polygon",
+        "Smart Contracts (Solidity)",
+        "Web3.js & Ethers.js", 
+        "DeFi Protocols",
+        "Tokenization & NFTs",
+        "Smart Contract Auditing",
+        "Hardhat & Truffle",
+        "IPFS & Decentralized Storage"
+      ]
+    },
+    {
+      "name": "Engineering Leadership & Management",
+      "level": "Expert", 
+      "keywords": [
+        "Distributed Team Management (15+ engineers)",
+        "Remote Team Leadership",
+        "Agile/Scrum Methodologies",
+        "Technical Strategy & Architecture Decisions",
+        "Code Reviews & Quality Assurance",
+        "Sprint Management & Release Cycles",
+        "Hiring & Onboarding",
+        "Budgeting & Resource Allocation"
+      ]
+    },
+    {
+      "name": "Backend Development",
+      "level": "Expert",
+      "keywords": [
+        "Node.js & Express.js",
+        "Go (Golang)",
+        "Python",
+        "RESTful APIs & GraphQL",
+        "Microservices Architecture",
+        "Real-time Data Pipelines",
+        "Performance Optimization",
+        "System Integration"
+      ]
+    },
+    {
+      "name": "Frontend & Full-Stack",
+      "level": "Advanced",
+      "keywords": [
+        "React & Next.js",
+        "TypeScript & JavaScript",
+        "Web3 Integration",
+        "Responsive Design",
+        "Progressive Web Apps",
+        "Real-time UI Updates",
+        "Mobile-First Development"
+      ]
+    },
+    {
+      "name": "Cloud Infrastructure & DevOps",
+      "level": "Expert",
+      "keywords": [
+        "AWS, Azure & GCP",
+        "Docker & Kubernetes",
+        "Terraform & Infrastructure as Code",
+        "CI/CD Pipelines (Jenkins, GitHub Actions)",
+        "Monitoring (Grafana, Prometheus, New Relic)",
+        "Security Best Practices",
+        "Auto-scaling & Load Balancing"
+      ]
+    },
+    {
+      "name": "Databases & Storage",
+      "level": "Expert", 
+      "keywords": [
+        "PostgreSQL & MySQL",
+        "MongoDB & Redis",
+        "Elasticsearch",
+        "IPFS & Blockchain Storage",
+        "Database Design & Optimization",
+        "Data Pipeline Architecture",
+        "Large Dataset Management"
+      ]
+    },
+    {
+      "name": "PropTech & Real Estate Technology",
+      "level": "Expert",
+      "keywords": [
+        "Property Management Systems", 
+        "MLS Integration",
+        "Real Estate APIs",
+        "Property Tokenization",
+        "Escrow Automation",
+        "Compliance Systems",
+        "Payment Processing",
+        "Virtual Tours & 3D Visualization"
+      ]
+    },
+    {
+      "name": "Security & Risk Management",
+      "level": "Advanced",
+      "keywords": [
+        "Smart Contract Auditing",
+        "Penetration Testing",
+        "Multi-sig Wallets",
+        "Encryption & Data Security",
+        "Technical Risk Assessment",
+        "Compliance & Regulatory Requirements",
+        "Security Architecture"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "name": "Lets Practice Academy",
+      "position": "Chief Technology Officer", 
+      "url": "https://letspractice.academy",
+      "startDate": "2022-06-01",
+      "endDate": "2025-09-10",
+      "summary": "Leading technology strategy and distributed engineering teams for blockchain-powered EdTech platform with real estate certification modules and tokenized credentials",
+      "highlights": [
+        "Architected and delivered blockchain-based property certification system using Ethereum and Polygon, enabling secure tokenized real estate credentials and automated compliance checking",
+        "Led distributed engineering team of 15+ developers across frontend (React, Next.js, TypeScript), backend (Node.js, Go, Python), and blockchain (Solidity, Web3.js) specializations",
+        "Implemented smart contracts for automated course completion verification and revenue sharing, processing $500K+ in tokenized transactions",
+        "Designed scalable microservices architecture with PostgreSQL, MongoDB, and Redis, handling 100K+ concurrent users with 99.9% uptime and real-time data processing",
+        "Established comprehensive DevOps practices using Docker, Kubernetes, and CI/CD pipelines (Jenkins, GitHub Actions), reducing deployment time by 75%",
+        "Integrated AI/ML recommendation engine with GraphQL APIs, improving user engagement by 45% and platform stickiness",
+        "Managed technical budgets and resource allocation for $1.5M+ development initiatives with full P&L responsibility",
+        "Implemented monitoring and logging infrastructure using Grafana, Prometheus, and New Relic for 24/7 system observability"
+      ],
+      "keywords": ["Ethereum", "Polygon", "Solidity", "Node.js", "React", "TypeScript", "PostgreSQL", "Kubernetes", "Team Leadership"]
+    },
+    {
+      "name": "Highspot",
+      "position": "Senior Manager, Software Engineering",
+      "url": "https://highspot.com", 
+      "startDate": "2020-07-01",
+      "endDate": "2022-06-01",
+      "summary": "Led engineering teams developing enterprise SaaS platform with blockchain integration, advanced analytics, and real-time data processing for Fortune 500 clients",
+      "highlights": [
+        "Managed distributed engineering teams of 12+ developers in fully remote environment across multiple global time zones, establishing Agile/Scrum practices and sprint management processes",
+        "Architected and delivered AI-powered content analytics platform using Node.js, Express.js, and GraphQL, processing 10M+ documents daily with real-time insights",
+        "Implemented blockchain-based document verification system with smart contracts for enterprise data authenticity and audit trails",
+        "Led technical strategy for platform scalability using AWS, Azure infrastructure supporting Fortune 500 customers with multi-million user bases and 99.99% SLA requirements",
+        "Established comprehensive security frameworks including penetration testing, encryption protocols, and compliance systems for enterprise data handling",
+        "Drove adoption of cloud-native technologies and Infrastructure as Code (Terraform), reducing infrastructure costs by 40% while improving performance",
+        "Mentored senior engineers and technical leads through code reviews and technical decision-making, achieving 80% internal promotion rate",
+        "Integrated payment processing systems and automated billing workflows for enterprise subscription management"
+      ],
+      "keywords": ["Node.js", "Express.js", "GraphQL", "AWS", "Azure", "Smart Contracts", "Team Management", "Remote Leadership"]
+    },
+    {
+      "name": "OYO (PropTech Division)",
+      "position": "Senior Manager, Technology - Real Estate Platform",
+      "url": "https://oyorooms.com",
+      "startDate": "2019-01-01", 
+      "endDate": "2020-07-01",
+      "summary": "Led development of comprehensive real estate technology platform serving global property management, tokenization, and blockchain-based booking systems",
+      "highlights": [
+        "Architected property management platform serving 100K+ hotels and vacation rentals globally with integrated MLS capabilities and real estate APIs",
+        "Led engineering teams developing PropTech solutions including property tokenization, automated escrow systems, and smart contract-driven lease agreements",
+        "Implemented blockchain-based identity verification and property ownership tracking using Ethereum smart contracts and IPFS storage",
+        "Designed and deployed real-time property availability and pricing systems using Node.js, PostgreSQL, and Redis, handling 1M+ property searches daily",
+        "Integrated virtual tour capabilities and 3D property visualization tools, increasing booking conversion rates by 35%",
+        "Established security best practices for handling property transaction data, implementing multi-sig wallet systems and compliance frameworks",
+        "Developed automated compliance checking systems for property regulations across multiple countries and jurisdictions",
+        "Led cross-functional collaboration with product managers, UX/UI designers, and business stakeholders to align technical execution with PropTech market requirements"
+      ],
+      "keywords": ["PropTech", "Property Management", "Blockchain", "Ethereum", "Node.js", "PostgreSQL", "Real Estate APIs", "Virtual Tours"]
+    },
+    {
+      "name": "Polycom (Acquired by Plantronics)",
+      "position": "Engineering Manager - Cloud Platform",
+      "url": "https://poly.com",
+      "startDate": "2015-08-01",
+      "endDate": "2019-01-01", 
+      "summary": "Led engineering teams developing cloud-native communication platforms with blockchain integration for secure enterprise communications and distributed team collaboration",
+      "highlights": [
+        "Managed distributed engineering teams of 10+ developers building scalable cloud communication platforms using microservices architecture with Go, Node.js, and Python",
+        "Architected secure communication protocols and implemented blockchain-based identity management for enterprise clients with global distributed teams",
+        "Led migration from monolithic to microservices architecture using Docker, Kubernetes, and cloud infrastructure (AWS, Azure), improving system scalability by 300%",
+        "Implemented real-time communication APIs and WebRTC integration with React and TypeScript frontend applications for seamless user experience",
+        "Established comprehensive monitoring and alerting systems using Grafana and Prometheus, achieving 99.9% uptime for mission-critical communication services",
+        "Drove technical decision-making for platform architecture, technology stack selection, and development best practices across multiple product lines",
+        "Collaborated with remote teams across US, Europe, and Asia, establishing effective Agile/Scrum processes and sprint management for distributed development",
+        "Implemented automated testing, CI/CD pipelines, and deployment strategies reducing release cycles from months to weekly deployments"
+      ],
+      "keywords": ["Distributed Teams", "Microservices", "Go", "Node.js", "React", "Kubernetes", "AWS", "Remote Collaboration"]
+    },
+    {
+      "name": "Oracle",
+      "position": "Senior Staff Engineer - Enterprise Platform",
+      "url": "https://oracle.com",
+      "startDate": "2013-04-01",
+      "endDate": "2015-08-01",
+      "summary": "Led technical architecture and development of enterprise-grade database and cloud platforms with early blockchain research and distributed systems expertise",
+      "highlights": [
+        "Architected large-scale distributed database systems and cloud infrastructure supporting enterprise clients with petabyte-scale data processing requirements",
+        "Led research and development of early blockchain technologies for enterprise data integrity and distributed consensus mechanisms",
+        "Designed and implemented high-performance backend systems using Java, Python, and Go with PostgreSQL and Oracle Database integration",
+        "Established security frameworks and encryption protocols for enterprise data protection and compliance with regulatory requirements",
+        "Mentored junior engineers and technical leads, establishing coding standards and technical review processes across the engineering organization",
+        "Collaborated with product management and enterprise customers to define technical requirements and platform roadmap for cloud migration initiatives",
+        "Implemented automated testing frameworks and performance optimization strategies, improving system throughput by 250%"
+      ],
+      "keywords": ["Distributed Systems", "Blockchain Research", "Enterprise Architecture", "PostgreSQL", "Python", "Security"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Jawaharlal Nehru Technological University",
+      "area": "Computer Science and Engineering",
+      "studyType": "Bachelor of Technology",
+      "startDate": "1998-08-01",
+      "endDate": "2002-05-01",
+      "gpa": "3.8/4.0",
+      "courses": ["Distributed Systems", "Database Management", "Software Architecture", "Network Security", "Algorithms and Data Structures"]
+    }
+  ],
+  "publications": [
+    {
+      "name": "Spring Boot 3 and Microservices: Build resilient and scalable microservices using Spring Cloud, Istio, and Kubernetes",
+      "publisher": "Packt Publishing",
+      "releaseDate": "2023-12-01",
+      "url": "https://www.packtpub.com/product/spring-boot-3-and-microservices/9781805128694",
+      "summary": "Comprehensive guide to building enterprise-grade microservices architecture with real-world PropTech examples and blockchain integration patterns"
+    },
+    {
+      "name": "Practical Microservices Patterns: Blockchain Integration in Distributed Systems",
+      "publisher": "O'Reilly Media",
+      "releaseDate": "2022-09-01", 
+      "url": "https://www.oreilly.com/library/view/practical-microservices-patterns/",
+      "summary": "Deep dive into microservices patterns with blockchain technology integration, featuring real estate technology use cases and PropTech architecture examples"
+    },
+    {
+      "name": "Jakarta EE Recipes: Enterprise Blockchain Applications",
+      "publisher": "Apress",
+      "releaseDate": "2021-11-01",
+      "url": "https://link.springer.com/book/",
+      "summary": "Practical recipes for building enterprise applications with blockchain integration, smart contracts, and distributed system patterns"
+    }
+  ],
+  "projects": [
+    {
+      "name": "PropTech Blockchain Platform - Open Source",
+      "description": "Open-source real estate blockchain platform featuring property tokenization, smart contract escrow, and decentralized MLS capabilities",
+      "highlights": [
+        "Built with Ethereum, Solidity, Node.js, React, and PostgreSQL",
+        "Supports property tokenization and automated escrow systems",
+        "Includes virtual tour integration and AI-powered property recommendations",
+        "Features multi-sig wallet integration and compliance automation"
+      ],
+      "keywords": ["Ethereum", "Solidity", "PropTech", "Real Estate", "Tokenization"],
+      "url": "https://github.com/ttelang/proptech-blockchain",
+      "roles": ["Technical Lead", "Architect"],
+      "entity": "Open Source",
+      "type": "application"
+    },
+    {
+      "name": "Distributed Team Management Framework",
+      "description": "Comprehensive framework and tools for managing global distributed engineering teams with blockchain-based incentive systems",
+      "highlights": [
+        "Supports remote team collaboration across multiple time zones",
+        "Includes Agile/Scrum tools and sprint management capabilities", 
+        "Features automated performance tracking and token-based rewards",
+        "Integrates with popular development tools (Jira, Slack, GitHub)"
+      ],
+      "keywords": ["Remote Teams", "Agile", "Blockchain", "Team Management"],
+      "url": "https://github.com/ttelang/distributed-team-framework",
+      "roles": ["Creator", "Maintainer"],
+      "entity": "Open Source",
+      "type": "framework"
+    }
+  ],
+  "awards": [
+    {
+      "title": "PropTech Innovation Award",
+      "date": "2023-10-01",
+      "awarder": "Real Estate Technology Association",
+      "summary": "Recognized for innovative blockchain solutions in real estate technology and property tokenization platforms"
+    },
+    {
+      "title": "Engineering Leadership Excellence",
+      "date": "2022-12-01", 
+      "awarder": "Highspot",
+      "summary": "Outstanding leadership in managing distributed engineering teams and delivering enterprise-scale platforms"
+    },
+    {
+      "title": "Blockchain Innovation in Education",
+      "date": "2023-06-01",
+      "awarder": "EdTech Blockchain Council",
+      "summary": "Revolutionary implementation of blockchain technology for educational credentials and certification systems"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Blockchain & Web3",
+      "keywords": ["DeFi", "Smart Contracts", "Tokenization", "Decentralized Systems"]
+    },
+    {
+      "name": "PropTech Innovation",
+      "keywords": ["Real Estate Technology", "Property Management", "Virtual Tours", "AI in Real Estate"]
+    },
+    {
+      "name": "Distributed Systems",
+      "keywords": ["Scalable Architecture", "Microservices", "Cloud Infrastructure", "Performance Optimization"]
+    },
+    {
+      "name": "Engineering Leadership",
+      "keywords": ["Remote Teams", "Agile Methodologies", "Technical Mentoring", "Strategic Planning"]
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/ttelang/resume/main/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2025-09-10T10:00:00.000Z",
+    "theme": "proptech-blockchain"
+  }
+}

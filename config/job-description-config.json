@@ -1,0 +1,44 @@
+{
+  "jobDescriptionConfig": {
+    "defaultFields": {
+      "required": ["jobId", "metadata", "overview", "responsibilities", "requirements"],
+      "optional": ["compensation", "technicalStack", "keywords", "culturalFit", "assessmentCriteria"]
+    },
+    "validation": {
+      "maxResponsibilities": 10,
+      "maxRequirements": 15,
+      "requiredMetadata": ["company", "title", "department", "level", "location"]
+    },
+    "categorization": {
+      "levels": ["Junior", "Mid", "Senior", "Lead", "Principal", "Staff", "Manager", "Director", "VP", "SVP", "C-Level"],
+      "departments": ["Engineering", "Technology", "Product", "Data", "Security", "DevOps", "Architecture"],
+      "employmentTypes": ["Full-time", "Contract", "Part-time", "Intern"]
+    }
+  },
+  "matching": {
+    "weightings": {
+      "technicalSkills": 0.4,
+      "experience": 0.3,
+      "leadership": 0.2,
+      "domain": 0.1
+    },
+    "thresholds": {
+      "excellent": 85,
+      "good": 70,
+      "fair": 50,
+      "poor": 30
+    }
+  },
+  "keywords": {
+    "technical": {
+      "programming": ["java", "python", "javascript", "typescript", "go", "scala", "c#", "rust"],
+      "frameworks": ["spring", "react", "angular", "django", "flask", "express", "node.js"],
+      "cloud": ["aws", "azure", "gcp", "kubernetes", "docker", "terraform"],
+      "databases": ["postgresql", "mongodb", "redis", "oracle", "mysql", "elasticsearch"],
+      "methodologies": ["agile", "scrum", "devops", "ci/cd", "tdd", "microservices"]
+    },
+    "leadership": ["team lead", "manager", "director", "mentoring", "coaching", "strategy"],
+    "finance": ["trading", "risk management", "compliance", "regulatory", "basel", "soxp"],
+    "consulting": ["client facing", "stakeholder management", "business analysis", "solution design"]
+  }
+}

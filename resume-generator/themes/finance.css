@@ -1,0 +1,199 @@
+/* Finance Industry Theme */
+:root {
+  --primary-color: #dc382d;
+  --secondary-color: #856404;
+  --accent-color: #ffc107;
+  --text-color: #212529;
+  --finance-blue: #004085;
+  --gold: #b8860b;
+}
+
+body {
+  font-family: 'Times New Roman', 'Georgia', serif;
+  line-height: 1.7;
+  color: var(--text-color);
+  margin: 0;
+  padding: 20px;
+  background-color: #fafafa;
+}
+
+.resume-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+  border: 2px solid var(--primary-color);
+  padding: 50px;
+  position: relative;
+}
+
+.resume-container::before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  border: 1px solid var(--secondary-color);
+  pointer-events: none;
+}
+
+.header {
+  text-align: center;
+  padding-bottom: 25px;
+  margin-bottom: 35px;
+  border-bottom: 3px double var(--primary-color);
+}
+
+.name {
+  font-size: 2.8em;
+  font-weight: bold;
+  color: var(--primary-color);
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.title {
+  font-size: 1.3em;
+  color: var(--secondary-color);
+  margin-bottom: 15px;
+  font-style: italic;
+  font-weight: 500;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  font-size: 0.95em;
+}
+
+.section-title {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: var(--primary-color);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 8px;
+  margin: 30px 0 20px 0;
+  position: relative;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  background: var(--gold);
+}
+
+.experience-item {
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+  border-bottom: 1px dotted #ccc;
+}
+
+.experience-item:last-child {
+  border-bottom: none;
+}
+
+.job-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 8px;
+}
+
+.job-title {
+  font-weight: bold;
+  font-size: 1.15em;
+  color: var(--finance-blue);
+}
+
+.company {
+  font-weight: bold;
+  color: var(--primary-color);
+  font-size: 1.05em;
+}
+
+.duration {
+  color: var(--secondary-color);
+  font-style: italic;
+  font-weight: 500;
+  background: rgba(220, 56, 45, 0.1);
+  padding: 3px 8px;
+  border-radius: 3px;
+}
+
+.location {
+  color: #666;
+  font-size: 0.9em;
+  margin-top: 3px;
+}
+
+.description {
+  margin-top: 12px;
+  text-align: justify;
+  line-height: 1.7;
+}
+
+.description ul {
+  padding-left: 20px;
+}
+
+.description li {
+  margin-bottom: 5px;
+}
+
+.skills-section {
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+  padding: 25px;
+  margin: 20px -25px;
+  border-left: 5px solid var(--primary-color);
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.skill-category {
+  background: white;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.skill-category h4 {
+  margin-top: 0;
+  color: var(--finance-blue);
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.education-item {
+  margin-bottom: 15px;
+}
+
+.degree {
+  font-weight: bold;
+  color: var(--finance-blue);
+}
+
+.institution {
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+@media print {
+  body { background-color: white; padding: 0; }
+  .resume-container { border: 1px solid #000; }
+  .skills-section { background: #f9f9f9; margin: 20px 0; }
+}

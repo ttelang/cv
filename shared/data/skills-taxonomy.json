@@ -1,0 +1,39 @@
+{
+  "programming_languages": [
+    "JavaScript", "TypeScript", "Python", "Java", "C#", "C++", "Go", "Rust", "Swift", "Kotlin",
+    "Scala", "Ruby", "PHP", "R", "MATLAB", "SQL", "NoSQL"
+  ],
+  "frameworks_libraries": [
+    "React", "Angular", "Vue.js", "Node.js", "Express.js", "Spring Boot", "Django", "Flask",
+    "ASP.NET", ".NET Core", "Laravel", "Ruby on Rails", "TensorFlow", "PyTorch", "Pandas"
+  ],
+  "cloud_platforms": [
+    "AWS", "Microsoft Azure", "Google Cloud Platform", "IBM Cloud", "Oracle Cloud",
+    "Kubernetes", "Docker", "Terraform", "CloudFormation"
+  ],
+  "databases": [
+    "PostgreSQL", "MySQL", "MongoDB", "Redis", "Elasticsearch", "Cassandra", "DynamoDB",
+    "Oracle Database", "SQL Server", "SQLite"
+  ],
+  "tools_technologies": [
+    "Git", "Jenkins", "GitLab CI/CD", "Jira", "Confluence", "Slack", "VS Code", "IntelliJ",
+    "Postman", "Swagger", "Grafana", "Prometheus"
+  ],
+  "methodologies": [
+    "Agile", "Scrum", "Kanban", "DevOps", "CI/CD", "Test-Driven Development", "Microservices",
+    "Domain-Driven Design", "Event-Driven Architecture"
+  ],
+  "blockchain_web3": [
+    "Ethereum", "Polygon", "Solidity", "Web3.js", "Smart Contracts", "DeFi", "Tokenization",
+    "IPFS", "Hardhat", "Truffle", "MetaMask", "Chainlink", "OpenZeppelin"
+  ],
+  "proptech_realestate": [
+    "MLS Integration", "Property Management Systems", "Real Estate APIs", "Virtual Tours",
+    "Property Analytics", "Escrow Automation", "Compliance Systems", "Property Tokenization"
+  ],
+  "certifications": [
+    "AWS Certified Solutions Architect", "Microsoft Azure Architect", "Google Cloud Professional",
+    "Certified Kubernetes Administrator", "PMP", "Scrum Master", "Product Owner",
+    "Certified Blockchain Developer", "Ethereum Developer Certification"
+  ]
+}

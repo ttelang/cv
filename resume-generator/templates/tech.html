@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{name}} - Technical Resume</title>
+    <link rel="stylesheet" href="{{themeFile}}">
+    <style>
+        .code-highlight { background: var(--code-bg, #f8f9fa); padding: 2px 4px; border-radius: 3px; }
+        .tech-stack { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0; }
+        .tech-stack .tech { background: var(--primary-color, #0066cc); color: white; padding: 4px 8px; border-radius: 12px; font-size: 0.8em; }
+        .metrics { color: var(--accent-color, #007bff); font-weight: bold; }
+        {{customStyles}}
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <header class="header">
+            <h1 class="name">{{name}}</h1>
+            <h2 class="title">{{label}}</h2>
+            <div class="contact-info">
+                {{#if email}}<span>✉️ {{email}}</span>{{/if}}
+                {{#if phone}}<span>📱 {{phone}}</span>{{/if}}
+                {{#if website}}<span>🌐 {{website}}</span>{{/if}}
+                {{#if location}}<span>📍 {{location.city}}, {{location.region}}</span>{{/if}}
+                {{#each profiles}}
+                <span>{{network}}: {{username}}</span>
+                {{/each}}
+            </div>
+        </header>
+
+        {{#if summary}}
+        <section class="section">
+            <h3 class="section-title">Technical Profile</h3>
+            <p>{{summary}}</p>
+        </section>
+        {{/if}}
+
+        {{#if skills}}
+        <section class="section skills-section">
+            <h3 class="section-title">Core Technologies</h3>
+            <div class="skills-grid">
+                {{#each skills}}
+                <div class="skill-category">
+                    <h4>{{name}}</h4>
+                    <div class="skill-list">
+                        {{#each keywords}}
+                        <span class="skill-tag">{{this}}</span>
+                        {{/each}}
+                    </div>
+                </div>
+                {{/each}}
+            </div>
+        </section>
+        {{/if}}
+
+        {{#if work}}
+        <section class="section">
+            <h3 class="section-title">Professional Experience</h3>
+            {{#each work}}
+            <div class="experience-item">
+                <div class="job-header">
+                    <div>
+                        <div class="job-title">{{position}}</div>
+                        <div class="company">{{company}}</div>
+                        {{#if location}}<div class="location">{{location}}</div>{{/if}}
+                    </div>
+                    <div class="duration">{{startDate}} - {{endDate}}</div>
+                </div>
+                
+                {{#if summary}}
+                <div class="description">
+                    <p>{{summary}}</p>
+                </div>
+                {{/if}}
+
+                {{#if keywords}}
+                <div class="tech-stack">
+                    {{#each keywords}}
+                    <span class="tech">{{this}}</span>
+                    {{/each}}
+                </div>
+                {{/if}}
+
+                {{#if highlights}}
+                <div class="description">
+                    <ul>
+                        {{#each highlights}}
+                        <li>{{this}}</li>
+                        {{/each}}
+                    </ul>
+                </div>
+                {{/if}}
+            </div>
+            {{/each}}
+        </section>
+        {{/if}}
+
+        {{#if projects}}
+        <section class="section">
+            <h3 class="section-title">Key Projects</h3>
+            {{#each projects}}
+            <div class="project-item">
+                <div class="project-header">
+                    <div class="project-name">{{name}}</div>
+                    {{#if url}}<div class="project-url">🔗 {{url}}</div>{{/if}}
+                </div>
+                {{#if description}}<div class="project-description">{{description}}</div>{{/if}}
+                {{#if keywords}}
+                <div class="tech-stack">
+                    {{#each keywords}}
+                    <span class="tech">{{this}}</span>
+                    {{/each}}
+                </div>
+                {{/if}}
+            </div>
+            {{/each}}
+        </section>
+        {{/if}}
+
+        {{#if education}}
+        <section class="section">
+            <h3 class="section-title">Education</h3>
+            {{#each education}}
+            <div class="education-item">
+                <div class="degree">{{studyType}} in {{area}}</div>
+                <div class="institution">{{institution}}</div>
+                <div class="duration">{{startDate}} - {{endDate}}</div>
+                {{#if gpa}}<div class="gpa">GPA: {{gpa}}</div>{{/if}}
+                {{#if courses}}
+                <div class="relevant-courses">
+                    <strong>Relevant Coursework:</strong> {{#each courses}}{{this}}{{#unless @last}}, {{/unless}}{{/each}}
+                </div>
+                {{/if}}
+            </div>
+            {{/each}}
+        </section>
+        {{/if}}
+
+        {{#if publications}}
+        <section class="section">
+            <h3 class="section-title">Publications & Thought Leadership</h3>
+            {{#each publications}}
+            <div class="publication-item">
+                <div class="publication-name">📖 {{name}}</div>
+                <div class="publication-publisher">{{publisher}} - {{releaseDate}}</div>
+                {{#if summary}}<div class="publication-summary">{{summary}}</div>{{/if}}
+                {{#if url}}<div class="publication-url">🔗 <a href="{{url}}" target="_blank">{{url}}</a></div>{{/if}}
+            </div>
+            {{/each}}
+        </section>
+        {{/if}}
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Highlight technical terms
+            const techTerms = ['API', 'REST', 'GraphQL', 'Docker', 'Kubernetes', 'AWS', 'Azure', 'GCP', 'microservices', 'CI/CD'];
+            const textNodes = document.querySelectorAll('.description, .project-description');
+            
+            textNodes.forEach(node => {
+                let html = node.innerHTML;
+                techTerms.forEach(term => {
+                    const regex = new RegExp(`\\b${term}\\b`, 'gi');
+                    html = html.replace(regex, `<span class="code-highlight">${term}</span>`);
+                });
+                node.innerHTML = html;
+            });
+
+            // Add hover effects to skill tags
+            const skillTags = document.querySelectorAll('.skill-tag, .tech');
+            skillTags.forEach(tag => {
+                tag.style.transition = 'all 0.2s ease';
+                tag.addEventListener('mouseover', function() {
+                    this.style.transform = 'scale(1.05)';
+                    this.style.boxShadow = '0 2px 8px rgba(0,0,0,0.2)';
+                });
+                tag.addEventListener('mouseout', function() {
+                    this.style.transform = 'scale(1)';
+                    this.style.boxShadow = 'none';
+                });
+            });
+        });
+    </script>
+</body>
+</html>

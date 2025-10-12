@@ -1,0 +1,33 @@
+{
+  "companyName": "JPMorgan Chase & Co.",
+  "industry": "Financial Services",
+  "size": "Large Enterprise (250,000+ employees)",
+  "headquarters": "New York, NY",
+  "description": "JPMorgan Chase & Co. is a leading global financial services firm with assets of $3.8 trillion and operations worldwide.",
+  "values": [
+    "Exceptional client service",
+    "Operational excellence", 
+    "Integrity",
+    "Strong risk management",
+    "Great team and winning culture"
+  ],
+  "culture": {
+    "workEnvironment": "Fast-paced, collaborative, results-driven",
+    "diversity": "Commitment to diversity, equity and inclusion",
+    "development": "Strong focus on professional development and career growth",
+    "innovation": "Emphasis on technology and innovation in financial services"
+  },
+  "techStack": [
+    "Java", "Python", "JavaScript", "React", "Spring Boot", "Microservices",
+    "AWS", "Kubernetes", "Docker", "Jenkins", "Git", "Oracle", "MongoDB"
+  ],
+  "preferredSkills": [
+    "Financial domain knowledge",
+    "Large-scale system design",
+    "Risk management",
+    "Regulatory compliance",
+    "Agile methodologies",
+    "Leadership experience",
+    "Client-facing experience"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "brandColors": {
+    "primary": "#dc382d",
+    "secondary": "#856404", 
+    "accent": "#ffc107",
+    "neutral": "#f8f9fa"
+  },
+  "typography": {
+    "headingFont": "Arial, sans-serif",
+    "bodyFont": "Times New Roman, serif",
+    "headingWeight": "bold",
+    "bodyWeight": "normal"
+  },
+  "layout": {
+    "headerStyle": "formal",
+    "sectionSpacing": "generous",
+    "alignment": "justified"
+  },
+  "emphasis": {
+    "highlightFinancialTerms": true,
+    "showQuantitativeResults": true,
+    "emphasizeCompliance": true,
+    "showClientImpact": true
+  }
+}

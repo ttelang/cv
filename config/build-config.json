@@ -1,0 +1,26 @@
+{
+  "buildDefaults": {
+    "outputFormat": "html",
+    "generatePDF": false,
+    "validateData": true
+  },
+  "paths": {
+    "users": "./users",
+    "companies": "./companies",
+    "shared": "./shared",
+    "templates": "./resume-generator/templates",
+    "themes": "./resume-generator/themes",
+    "output": "./users/{user}/resumes"
+  },
+  "themeDefaults": {
+    "standard": "standard.css",
+    "tech": "tech.css",
+    "finance": "finance.css",
+    "executive": "executive.css"
+  },
+  "validation": {
+    "requiredSections": ["basics", "work", "education"],
+    "maxDescriptionLength": 1000,
+    "checkSpelling": true
+  }
+}
