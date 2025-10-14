@@ -2,12 +2,13 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Tarun Telang",
-    "label": "Engineering Leader | Blockchain & AI Expert",
+  "label": "Strategy Leader | Business Growth | Tech-Education | Engineering & Blockchain Expert",
     "image": "https://media.licdn.com/dms/image/v2/D5603AQHG872SjT2mVw/profile-displayphoto-shrink_800_800/B56ZSR3mxWHoAc-/0/1737614061530?e=1758153600&v=beta&t=jKvtxzwpATIGbFAvxz9HHW2zWv-iAz_1US63KGV4_e8",
     "email": "tarun.telang@gmail.com",
     "phone": "+91-6309-485-289",
     "url": "https://practicaldeveloper.com",
-    "summary": "Experienced Engineering Manager with 20+ years leading distributed teams and architecting scalable blockchain platforms. Expert in Ethereum, Polygon, and smart contract development with deep expertise in real estate technology and PropTech solutions. Proven track record of delivering high-impact property transaction platforms from concept to scale, managing $2M+ budgets and teams of 15+ engineers across global time zones. Strong background in Agile/Scrum methodologies, cloud infrastructure (AWS, Azure, GCP), and DevOps practices with hands-on coding ability in Go, Node.js, and Solidity.",
+  "summary": "Strategy and business leader with 20+ years driving growth across tech-education, SaaS, and PropTech verticals. Proven success in consulting (MBB) and startup strategy/business roles, leading cross-functional teams and executing high-impact projects. Expert in solving complex, ambiguous problems, incubating new opportunities, and scaling businesses profitably. Experience spans Scaler-like environments, Sequoia/Tiger-backed startups, and global tech organizations."
+  ,
     "location": {
       "address": "Remote (Global)",
       "postalCode": "500032", 
@@ -34,6 +35,26 @@
     ]
   },
   "skills": [
+    {
+      "name": "Strategy & Business Leadership",
+      "level": "Expert",
+      "keywords": [
+        "Strategy Development",
+        "Business Growth",
+        "Cross-vertical Leadership",
+        "Consulting (MBB)",
+        "Startup Strategy",
+        "Execution Muscle",
+        "Ambiguity Management",
+        "Incubation of New Opportunities",
+        "Profitability",
+        "Tech-Education Sector",
+        "Scaler",
+        "Asia Market",
+        "Sequoia",
+        "Tiger Global"
+      ]
+    },
     {
       "name": "Blockchain & Web3 Development",
       "level": "Expert",
