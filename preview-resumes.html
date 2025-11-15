@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Preview</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 40px 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            color: white;
+            text-align: center;
+            margin-bottom: 40px;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .resume-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 25px;
+        }
+        
+        .resume-card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .resume-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+        }
+        
+        .resume-card h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+            word-break: break-word;
+        }
+        
+        .resume-card .path {
+            color: #666;
+            font-size: 0.85em;
+            margin-bottom: 15px;
+            font-family: monospace;
+            word-break: break-all;
+        }
+        
+        .resume-card .btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 10px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: opacity 0.3s ease;
+        }
+        
+        .resume-card .btn:hover {
+            opacity: 0.9;
+        }
+        
+        .section-title {
+            color: white;
+            font-size: 1.8em;
+            margin: 40px 0 20px 0;
+            padding-bottom: 10px;
+            border-bottom: 3px solid rgba(255,255,255,0.3);
+        }
+        
+        .section-title:first-of-type {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📄 Resume Preview Center</h1>
+        
+        <h2 class="section-title">Root Directory Resumes</h2>
+        <div class="resume-grid">
+            <div class="resume-card" onclick="window.open('resume-jpmc-director.html', '_blank')">
+                <h2>JPMC Director Resume</h2>
+                <p class="path">resume-jpmc-director.html</p>
+                <a href="resume-jpmc-director.html" target="_blank" class="btn">Open Resume</a>
+            </div>
+            
+            <div class="resume-card" onclick="window.open('resume-jpmc-generated.html', '_blank')">
+                <h2>JPMC Generated Resume</h2>
+                <p class="path">resume-jpmc-generated.html</p>
+                <a href="resume-jpmc-generated.html" target="_blank" class="btn">Open Resume</a>
+            </div>
+            
+            <div class="resume-card" onclick="window.open('resume-jpmc.html', '_blank')">
+                <h2>JPMC Resume</h2>
+                <p class="path">resume-jpmc.html</p>
+                <a href="resume-jpmc.html" target="_blank" class="btn">Open Resume</a>
+            </div>
+            
+            <div class="resume-card" onclick="window.open('resume-proptech-generated.html', '_blank')">
+                <h2>PropTech Generated Resume</h2>
+                <p class="path">resume-proptech-generated.html</p>
+                <a href="resume-proptech-generated.html" target="_blank" class="btn">Open Resume</a>
+            </div>
+            
+            <div class="resume-card" onclick="window.open('resume-oreilly-generated.html', '_blank')">
+                <h2>O'Reilly Generated Resume</h2>
+                <p class="path">resume-oreilly-generated.html</p>
+                <a href="resume-oreilly-generated.html" target="_blank" class="btn">Open Resume</a>
+            </div>
+            
+            <div class="resume-card" onclick="window.open('resume-standard-generated.html', '_blank')">
+                <h2>Standard Generated Resume</h2>
+                <p class="path">resume-standard-generated.html</p>
+                <a href="resume-standard-generated.html" target="_blank" class="btn">Open Resume</a>
+            </div>
+        </div>
+        
+        <h2 class="section-title">Tarun's Resumes</h2>
+        <div class="resume-grid">
+            <div class="resume-card" onclick="window.open('users/tarun/resumes/resume-jpmc-director.html', '_blank')">
+                <h2>JPMC Director</h2>
+                <p class="path">users/tarun/resumes/resume-jpmc-director.html</p>
+                <a href="users/tarun/resumes/resume-jpmc-director.html" target="_blank" class="btn">Open Resume</a>
+            </div>
+            
+            <div class="resume-card" onclick="window.open('users/tarun/resumes/resume-jpmc-generated.html', '_blank')">
+                <h2>JPMC Generated</h2>
+                <p class="path">users/tarun/resumes/resume-jpmc-generated.html</p>
+                <a href="users/tarun/resumes/resume-jpmc-generated.html" target="_blank" class="btn">Open Resume</a>
+            </div>
+            
+            <div class="resume-card" onclick="window.open('users/tarun/resumes/resume-jpmc.html', '_blank')">
+                <h2>JPMC</h2>
+                <p class="path">users/tarun/resumes/resume-jpmc.html</p>
+                <a href="users/tarun/resumes/resume-jpmc.html" target="_blank" class="btn">Open Resume</a>
+            </div>
+            
+            <div class="resume-card" onclick="window.open('users/tarun/resumes/resume-oreilly.html', '_blank')">
+                <h2>O'Reilly</h2>
+                <p class="path">users/tarun/resumes/resume-oreilly.html</p>
+                <a href="users/tarun/resumes/resume-oreilly.html" target="_blank" class="btn">Open Resume</a>
+            </div>
+            
+            <div class="resume-card" onclick="window.open('users/tarun/resumes/resume-solutions-engineer.html', '_blank')">
+                <h2>Solutions Engineer</h2>
+                <p class="path">users/tarun/resumes/resume-solutions-engineer.html</p>
+                <a href="users/tarun/resumes/resume-solutions-engineer.html" target="_blank" class="btn">Open Resume</a>
+            </div>
+            
+            <div class="resume-card" onclick="window.open('users/tarun/resumes/resume-zeals.html', '_blank')">
+                <h2>Zeals</h2>
+                <p class="path">users/tarun/resumes/resume-zeals.html</p>
+                <a href="users/tarun/resumes/resume-zeals.html" target="_blank" class="btn">Open Resume</a>
+            </div>
+            
+            <div class="resume-card" onclick="window.open('users/tarun/resumes/tarun-proptech-engineering-manager.html', '_blank')">
+                <h2>PropTech Engineering Manager</h2>
+                <p class="path">users/tarun/resumes/tarun-proptech-engineering-manager.html</p>
+                <a href="users/tarun/resumes/tarun-proptech-engineering-manager.html" target="_blank" class="btn">Open Resume</a>
+            </div>
+            
+            <div class="resume-card" onclick="window.open('users/tarun/resumes/tarun-scaler-vp-strategy.html', '_blank')">
+                <h2>Scaler VP Strategy</h2>
+                <p class="path">users/tarun/resumes/tarun-scaler-vp-strategy.html</p>
+                <a href="users/tarun/resumes/tarun-scaler-vp-strategy.html" target="_blank" class="btn">Open Resume</a>
+            </div>
+        </div>
+        
+        <h2 class="section-title">Kriti's Resumes</h2>
+        <div class="resume-grid">
+            <div class="resume-card" onclick="window.open('users/kriti/resumes/Resume-Kriti-Telang-LBG.html', '_blank')">
+                <h2>Kriti Telang - LBG</h2>
+                <p class="path">users/kriti/resumes/Resume-Kriti-Telang-LBG.html</p>
+                <a href="users/kriti/resumes/Resume-Kriti-Telang-LBG.html" target="_blank" class="btn">Open Resume</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

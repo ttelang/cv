@@ -695,7 +695,7 @@ class ResumeGenerator {
 window.ResumeGenerator = ResumeGenerator;
 
 // Usage example:
-async function generateResume(jsonPath = '../resume-jpmc-director.json', containerId = 'resume-container') {
+async function generateResume(jsonPath = '../tarun/resume-jpmc-director.json', containerId = 'resume-container') {
     try {
         const generator = new ResumeGenerator(jsonPath);
         const html = await generator.generateHTML(false); // Don't include styles if container already has them
@@ -718,7 +718,7 @@ async function generateResume(jsonPath = '../resume-jpmc-director.json', contain
 document.addEventListener('DOMContentLoaded', function() {
     const resumeContainer = document.getElementById('resume-container');
     if (resumeContainer) {
-        const jsonPath = resumeContainer.dataset.jsonPath || './resume-jpmc-director.json';
+        const jsonPath = resumeContainer.dataset.jsonPath || './tarun/resume-jpmc-director.json';
         generateResume(jsonPath, 'resume-container');
     }
 });
